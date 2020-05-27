@@ -1,0 +1,22 @@
+[
+ {
+  "width": 100,
+  "url": "http://res.cloudinary.com/cloudinary-training/image/upload/$horizontal_100,$correctx_0.04,$logoscalar_0.4,$color_!ffc0cb!/e_replace_color:$color:30:111111/c_scale,w_$horizontal/c_fit,g_north,l_logo-big,w_$horizontal_mul_$logoscalar,x_$horizontal_mul_$correctx,y_$horizontal_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap"
+ },
+ {
+  "width": 200,
+  "url": "http://res.cloudinary.com/cloudinary-training/image/upload/$horizontal_200,$correctx_0.04,$logoscalar_0.4,$color_!ffc0cb!/e_replace_color:$color:30:111111/c_scale,w_$horizontal/c_fit,g_north,l_logo-big,w_$horizontal_mul_$logoscalar,x_$horizontal_mul_$correctx,y_$horizontal_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap"
+ },
+ {
+  "width": 300,
+  "url": "http://res.cloudinary.com/cloudinary-training/image/upload/$horizontal_300,$correctx_0.04,$logoscalar_0.4,$color_!ffc0cb!/e_replace_color:$color:30:111111/c_scale,w_$horizontal/c_fit,g_north,l_logo-big,w_$horizontal_mul_$logoscalar,x_$horizontal_mul_$correctx,y_$horizontal_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap"
+ },
+ {
+  "width": 400,
+  "url": "http://res.cloudinary.com/cloudinary-training/image/upload/$horizontal_400,$correctx_0.04,$logoscalar_0.4,$color_!ffc0cb!/e_replace_color:$color:30:111111/c_scale,w_$horizontal/c_fit,g_north,l_logo-big,w_$horizontal_mul_$logoscalar,x_$horizontal_mul_$correctx,y_$horizontal_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap"
+ },
+ {
+  "width": 500,
+  "url": "http://res.cloudinary.com/cloudinary-training/image/upload/$horizontal_500,$correctx_0.04,$logoscalar_0.4,$color_!ffc0cb!/e_replace_color:$color:30:111111/c_scale,w_$horizontal/c_fit,g_north,l_logo-big,w_$horizontal_mul_$logoscalar,x_$horizontal_mul_$correctx,y_$horizontal_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap"
+ }
+]

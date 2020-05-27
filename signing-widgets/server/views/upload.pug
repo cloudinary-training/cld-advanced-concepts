@@ -1,0 +1,41 @@
+extends layout
+
+block content
+  h1= title
+ 
+  h2 Welcome to #{title}
+  p Timestamp: #{timestamp}
+  p Signature: #{signature}
+  
+  div
+    button#upload_widget.cloudinary-button Upload files
+  div
+    img#uploaded
+
+  script(type="text/javascript").
+    document.addEventListener("DOMContentLoaded",e => {
+      const options = {
+        cloudName: "#{cloudname}",
+        apiKey: "#{apikey}",
+        uploadSignatureTimestamp: "#{timestamp}",
+        uploadSignature: "#{signature}",
+        cropping: false
+      };
+      const processResults = (error, result) => {
+        if (!error && result && result.event === 'success') {
+          console.log(result)
+          document.querySelector('#uploaded').src = result.info.secure_url
+        }
+      }
+
+      const myWidget = window.cloudinary.createUploadWidget(
+        options,
+        processResults
+      )
+      document
+        .getElementById('upload_widget')
+        .addEventListener('click', () => myWidget.open(), false)
+    })
+       
+    
+    

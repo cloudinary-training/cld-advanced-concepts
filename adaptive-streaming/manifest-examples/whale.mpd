@@ -1,0 +1,304 @@
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" minBufferTime="PT1.500S" type="static" mediaPresentationDuration="PT0H1M0.070S" maxSegmentDuration="PT0H0M2.043S" profiles="urn:mpeg:dash:profile:full:2011">
+  <Period duration="PT0H1M0.070S">
+    <AdaptationSet segmentAlignment="true" maxWidth="640" maxHeight="360" maxFrameRate="25" par="16:9" lang="und">
+      <Representation id="1" mimeType="video/mp4" codecs="avc1.42C01E" width="320" height="180" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="94718">
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_320,h_240,vc_h264:baseline:3.0,br_192k/v1579632944/whale.mp4dv</BaseURL>
+        <SegmentList timescale="12800" duration="25600">
+          <Initialization range="0-907" />
+          <SegmentURL mediaRange="908-20571" indexRange="908-951" />
+          <SegmentURL mediaRange="20572-43548" indexRange="20572-20615" />
+          <SegmentURL mediaRange="43549-73728" indexRange="43549-43592" />
+          <SegmentURL mediaRange="73729-90508" indexRange="73729-73772" />
+          <SegmentURL mediaRange="90509-113196" indexRange="90509-90552" />
+          <SegmentURL mediaRange="113197-142891" indexRange="113197-113240" />
+          <SegmentURL mediaRange="142892-161304" indexRange="142892-142935" />
+          <SegmentURL mediaRange="161305-176456" indexRange="161305-161348" />
+          <SegmentURL mediaRange="176457-194333" indexRange="176457-176500" />
+          <SegmentURL mediaRange="194334-222653" indexRange="194334-194377" />
+          <SegmentURL mediaRange="222654-271853" indexRange="222654-222697" />
+          <SegmentURL mediaRange="271854-328283" indexRange="271854-271897" />
+          <SegmentURL mediaRange="328284-363886" indexRange="328284-328327" />
+          <SegmentURL mediaRange="363887-398636" indexRange="363887-363930" />
+          <SegmentURL mediaRange="398637-431558" indexRange="398637-398680" />
+          <SegmentURL mediaRange="431559-468515" indexRange="431559-431602" />
+          <SegmentURL mediaRange="468516-501883" indexRange="468516-468559" />
+          <SegmentURL mediaRange="501884-534127" indexRange="501884-501927" />
+          <SegmentURL mediaRange="534128-560556" indexRange="534128-534171" />
+          <SegmentURL mediaRange="560557-584126" indexRange="560557-560600" />
+          <SegmentURL mediaRange="584127-605586" indexRange="584127-584170" />
+          <SegmentURL mediaRange="605587-624962" indexRange="605587-605630" />
+          <SegmentURL mediaRange="624963-637780" indexRange="624963-625006" />
+          <SegmentURL mediaRange="637781-648526" indexRange="637781-637824" />
+          <SegmentURL mediaRange="648527-659179" indexRange="648527-648570" />
+          <SegmentURL mediaRange="659180-671130" indexRange="659180-659223" />
+          <SegmentURL mediaRange="671131-681603" indexRange="671131-671174" />
+          <SegmentURL mediaRange="681604-691753" indexRange="681604-681647" />
+          <SegmentURL mediaRange="691754-700060" indexRange="691754-691797" />
+          <SegmentURL mediaRange="700061-710859" indexRange="700061-700104" />
+        </SegmentList>
+      </Representation>
+      <Representation id="2" mimeType="video/mp4" codecs="avc1.42C01E" width="480" height="270" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="178418">
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_480,h_270,vc_h264:baseline:3.0,br_800k/v1579632944/whale.mp4dv</BaseURL>
+        <SegmentList timescale="12800" duration="25600">
+          <Initialization range="0-907" />
+          <SegmentURL mediaRange="908-39382" indexRange="908-951" />
+          <SegmentURL mediaRange="39383-83982" indexRange="39383-39426" />
+          <SegmentURL mediaRange="83983-141847" indexRange="83983-84026" />
+          <SegmentURL mediaRange="141848-174936" indexRange="141848-141891" />
+          <SegmentURL mediaRange="174937-218567" indexRange="174937-174980" />
+          <SegmentURL mediaRange="218568-275762" indexRange="218568-218611" />
+          <SegmentURL mediaRange="275763-311712" indexRange="275763-275806" />
+          <SegmentURL mediaRange="311713-340561" indexRange="311713-311756" />
+          <SegmentURL mediaRange="340562-374387" indexRange="340562-340605" />
+          <SegmentURL mediaRange="374388-427484" indexRange="374388-374431" />
+          <SegmentURL mediaRange="427485-521556" indexRange="427485-427528" />
+          <SegmentURL mediaRange="521557-632781" indexRange="521557-521600" />
+          <SegmentURL mediaRange="632782-701754" indexRange="632782-632825" />
+          <SegmentURL mediaRange="701755-767851" indexRange="701755-701798" />
+          <SegmentURL mediaRange="767852-830173" indexRange="767852-767895" />
+          <SegmentURL mediaRange="830174-899352" indexRange="830174-830217" />
+          <SegmentURL mediaRange="899353-961026" indexRange="899353-899396" />
+          <SegmentURL mediaRange="961027-1019869" indexRange="961027-961070" />
+          <SegmentURL mediaRange="1019870-1068332" indexRange="1019870-1019913" />
+          <SegmentURL mediaRange="1068333-1111821" indexRange="1068333-1068376" />
+          <SegmentURL mediaRange="1111822-1150669" indexRange="1111822-1111865" />
+          <SegmentURL mediaRange="1150670-1185056" indexRange="1150670-1150713" />
+          <SegmentURL mediaRange="1185057-1208479" indexRange="1185057-1185100" />
+          <SegmentURL mediaRange="1208480-1227859" indexRange="1208480-1208523" />
+          <SegmentURL mediaRange="1227860-1246584" indexRange="1227860-1227903" />
+          <SegmentURL mediaRange="1246585-1267905" indexRange="1246585-1246628" />
+          <SegmentURL mediaRange="1267906-1286582" indexRange="1267906-1267949" />
+          <SegmentURL mediaRange="1286583-1305044" indexRange="1286583-1286626" />
+          <SegmentURL mediaRange="1305045-1319947" indexRange="1305045-1305088" />
+          <SegmentURL mediaRange="1319948-1339029" indexRange="1319948-1319991" />
+        </SegmentList>
+      </Representation>
+      <Representation id="3" mimeType="video/mp4" codecs="avc1.42C01E" width="640" height="360" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="300094">
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_640,h_360,vc_h264:baseline:3.0,br_2m/v1579632944/whale.mp4dv</BaseURL>
+        <SegmentList timescale="12800" duration="25600">
+          <Initialization range="0-907" />
+          <SegmentURL mediaRange="908-65920" indexRange="908-951" />
+          <SegmentURL mediaRange="65921-140914" indexRange="65921-65964" />
+          <SegmentURL mediaRange="140915-237107" indexRange="140915-140958" />
+          <SegmentURL mediaRange="237108-296322" indexRange="237108-237151" />
+          <SegmentURL mediaRange="296323-372214" indexRange="296323-296366" />
+          <SegmentURL mediaRange="372215-467860" indexRange="372215-372258" />
+          <SegmentURL mediaRange="467861-531430" indexRange="467861-467904" />
+          <SegmentURL mediaRange="531431-581911" indexRange="531431-531474" />
+          <SegmentURL mediaRange="581912-639612" indexRange="581912-581955" />
+          <SegmentURL mediaRange="639613-728383" indexRange="639613-639656" />
+          <SegmentURL mediaRange="728384-882452" indexRange="728384-728427" />
+          <SegmentURL mediaRange="882453-1062220" indexRange="882453-882496" />
+          <SegmentURL mediaRange="1062221-1181012" indexRange="1062221-1062264" />
+          <SegmentURL mediaRange="1181013-1293036" indexRange="1181013-1181056" />
+          <SegmentURL mediaRange="1293037-1399246" indexRange="1293037-1293080" />
+          <SegmentURL mediaRange="1399247-1511677" indexRange="1399247-1399290" />
+          <SegmentURL mediaRange="1511678-1613395" indexRange="1511678-1511721" />
+          <SegmentURL mediaRange="1613396-1713096" indexRange="1613396-1613439" />
+          <SegmentURL mediaRange="1713097-1793005" indexRange="1713097-1713140" />
+          <SegmentURL mediaRange="1793006-1865946" indexRange="1793006-1793049" />
+          <SegmentURL mediaRange="1865947-1930482" indexRange="1865947-1865990" />
+          <SegmentURL mediaRange="1930483-1987357" indexRange="1930483-1930526" />
+          <SegmentURL mediaRange="1987358-2028051" indexRange="1987358-1987401" />
+          <SegmentURL mediaRange="2028052-2061280" indexRange="2028052-2028095" />
+          <SegmentURL mediaRange="2061281-2093795" indexRange="2061281-2061324" />
+          <SegmentURL mediaRange="2093796-2130624" indexRange="2093796-2093839" />
+          <SegmentURL mediaRange="2130625-2162857" indexRange="2130625-2130668" />
+          <SegmentURL mediaRange="2162858-2194563" indexRange="2162858-2162901" />
+          <SegmentURL mediaRange="2194564-2219997" indexRange="2194564-2194607" />
+          <SegmentURL mediaRange="2219998-2252211" indexRange="2219998-2220041" />
+        </SegmentList>
+      </Representation>
+      <Representation id="4" mimeType="video/mp4" codecs="avc1.4D401F" width="640" height="360" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="233928">
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_960,h_540,vc_h264:main:3.1,br_3500k/v1579632944/whale.mp4dv</BaseURL>
+        <SegmentList timescale="12800" duration="25600">
+          <Initialization range="0-906" />
+          <SegmentURL mediaRange="907-51699" indexRange="907-950" />
+          <SegmentURL mediaRange="51700-109328" indexRange="51700-51743" />
+          <SegmentURL mediaRange="109329-184526" indexRange="109329-109372" />
+          <SegmentURL mediaRange="184527-231121" indexRange="184527-184570" />
+          <SegmentURL mediaRange="231122-291522" indexRange="231122-231165" />
+          <SegmentURL mediaRange="291523-365164" indexRange="291523-291566" />
+          <SegmentURL mediaRange="365165-412407" indexRange="365165-365208" />
+          <SegmentURL mediaRange="412408-452147" indexRange="412408-412451" />
+          <SegmentURL mediaRange="452148-500941" indexRange="452148-452191" />
+          <SegmentURL mediaRange="500942-572765" indexRange="500942-500985" />
+          <SegmentURL mediaRange="572766-693259" indexRange="572766-572809" />
+          <SegmentURL mediaRange="693260-830493" indexRange="693260-693303" />
+          <SegmentURL mediaRange="830494-919027" indexRange="830494-830537" />
+          <SegmentURL mediaRange="919028-1004914" indexRange="919028-919071" />
+          <SegmentURL mediaRange="1004915-1083450" indexRange="1004915-1004958" />
+          <SegmentURL mediaRange="1083451-1166028" indexRange="1083451-1083494" />
+          <SegmentURL mediaRange="1166029-1241246" indexRange="1166029-1166072" />
+          <SegmentURL mediaRange="1241247-1319640" indexRange="1241247-1241290" />
+          <SegmentURL mediaRange="1319641-1383651" indexRange="1319641-1319684" />
+          <SegmentURL mediaRange="1383652-1441368" indexRange="1383652-1383695" />
+          <SegmentURL mediaRange="1441369-1494925" indexRange="1441369-1441412" />
+          <SegmentURL mediaRange="1494926-1540981" indexRange="1494926-1494969" />
+          <SegmentURL mediaRange="1540982-1573734" indexRange="1540982-1541025" />
+          <SegmentURL mediaRange="1573735-1600289" indexRange="1573735-1573778" />
+          <SegmentURL mediaRange="1600290-1626727" indexRange="1600290-1600333" />
+          <SegmentURL mediaRange="1626728-1655687" indexRange="1626728-1626771" />
+          <SegmentURL mediaRange="1655688-1681728" indexRange="1655688-1655731" />
+          <SegmentURL mediaRange="1681729-1707427" indexRange="1681729-1681772" />
+          <SegmentURL mediaRange="1707428-1728398" indexRange="1707428-1707471" />
+          <SegmentURL mediaRange="1728399-1755630" indexRange="1728399-1728442" />
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet segmentAlignment="true" lang="und">
+      <Representation id="5" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" bandwidth="65674">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_320,h_240,vc_h264:baseline:3.0,br_192k/v1579632944/whale.mp4da</BaseURL>
+        <SegmentList timescale="22050" duration="44100">
+          <Initialization range="0-853" />
+          <SegmentURL mediaRange="854-17588" indexRange="854-897" />
+          <SegmentURL mediaRange="17589-33983" indexRange="17589-17632" />
+          <SegmentURL mediaRange="33984-50428" indexRange="33984-34027" />
+          <SegmentURL mediaRange="50429-66761" indexRange="50429-50472" />
+          <SegmentURL mediaRange="66762-82979" indexRange="66762-66805" />
+          <SegmentURL mediaRange="82980-99395" indexRange="82980-83023" />
+          <SegmentURL mediaRange="99396-115868" indexRange="99396-99439" />
+          <SegmentURL mediaRange="115869-132081" indexRange="115869-115912" />
+          <SegmentURL mediaRange="132082-148435" indexRange="132082-132125" />
+          <SegmentURL mediaRange="148436-164801" indexRange="148436-148479" />
+          <SegmentURL mediaRange="164802-181144" indexRange="164802-164845" />
+          <SegmentURL mediaRange="181145-197500" indexRange="181145-181188" />
+          <SegmentURL mediaRange="197501-214062" indexRange="197501-197544" />
+          <SegmentURL mediaRange="214063-230347" indexRange="214063-214106" />
+          <SegmentURL mediaRange="230348-246594" indexRange="230348-230391" />
+          <SegmentURL mediaRange="246595-263288" indexRange="246595-246638" />
+          <SegmentURL mediaRange="263289-279722" indexRange="263289-263332" />
+          <SegmentURL mediaRange="279723-295967" indexRange="279723-279766" />
+          <SegmentURL mediaRange="295968-312410" indexRange="295968-296011" />
+          <SegmentURL mediaRange="312411-328591" indexRange="312411-312454" />
+          <SegmentURL mediaRange="328592-344929" indexRange="328592-328635" />
+          <SegmentURL mediaRange="344930-361252" indexRange="344930-344973" />
+          <SegmentURL mediaRange="361253-377659" indexRange="361253-361296" />
+          <SegmentURL mediaRange="377660-393943" indexRange="377660-377703" />
+          <SegmentURL mediaRange="393944-410452" indexRange="393944-393987" />
+          <SegmentURL mediaRange="410453-426670" indexRange="410453-410496" />
+          <SegmentURL mediaRange="426671-443068" indexRange="426671-426714" />
+          <SegmentURL mediaRange="443069-459344" indexRange="443069-443112" />
+          <SegmentURL mediaRange="459345-475727" indexRange="459345-459388" />
+          <SegmentURL mediaRange="475728-491828" indexRange="475728-475771" />
+          <SegmentURL mediaRange="491829-493893" indexRange="491829-491872" />
+        </SegmentList>
+      </Representation>
+      <Representation id="6" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" bandwidth="65674">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_480,h_270,vc_h264:baseline:3.0,br_800k/v1579632944/whale.mp4da</BaseURL>
+        <SegmentList timescale="22050" duration="44100">
+          <Initialization range="0-853" />
+          <SegmentURL mediaRange="854-17588" indexRange="854-897" />
+          <SegmentURL mediaRange="17589-33983" indexRange="17589-17632" />
+          <SegmentURL mediaRange="33984-50428" indexRange="33984-34027" />
+          <SegmentURL mediaRange="50429-66761" indexRange="50429-50472" />
+          <SegmentURL mediaRange="66762-82979" indexRange="66762-66805" />
+          <SegmentURL mediaRange="82980-99395" indexRange="82980-83023" />
+          <SegmentURL mediaRange="99396-115868" indexRange="99396-99439" />
+          <SegmentURL mediaRange="115869-132081" indexRange="115869-115912" />
+          <SegmentURL mediaRange="132082-148435" indexRange="132082-132125" />
+          <SegmentURL mediaRange="148436-164801" indexRange="148436-148479" />
+          <SegmentURL mediaRange="164802-181144" indexRange="164802-164845" />
+          <SegmentURL mediaRange="181145-197500" indexRange="181145-181188" />
+          <SegmentURL mediaRange="197501-214062" indexRange="197501-197544" />
+          <SegmentURL mediaRange="214063-230347" indexRange="214063-214106" />
+          <SegmentURL mediaRange="230348-246594" indexRange="230348-230391" />
+          <SegmentURL mediaRange="246595-263288" indexRange="246595-246638" />
+          <SegmentURL mediaRange="263289-279722" indexRange="263289-263332" />
+          <SegmentURL mediaRange="279723-295967" indexRange="279723-279766" />
+          <SegmentURL mediaRange="295968-312410" indexRange="295968-296011" />
+          <SegmentURL mediaRange="312411-328591" indexRange="312411-312454" />
+          <SegmentURL mediaRange="328592-344929" indexRange="328592-328635" />
+          <SegmentURL mediaRange="344930-361252" indexRange="344930-344973" />
+          <SegmentURL mediaRange="361253-377659" indexRange="361253-361296" />
+          <SegmentURL mediaRange="377660-393943" indexRange="377660-377703" />
+          <SegmentURL mediaRange="393944-410452" indexRange="393944-393987" />
+          <SegmentURL mediaRange="410453-426670" indexRange="410453-410496" />
+          <SegmentURL mediaRange="426671-443068" indexRange="426671-426714" />
+          <SegmentURL mediaRange="443069-459344" indexRange="443069-443112" />
+          <SegmentURL mediaRange="459345-475727" indexRange="459345-459388" />
+          <SegmentURL mediaRange="475728-491828" indexRange="475728-475771" />
+          <SegmentURL mediaRange="491829-493893" indexRange="491829-491872" />
+        </SegmentList>
+      </Representation>
+      <Representation id="7" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" bandwidth="65674">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_640,h_360,vc_h264:baseline:3.0,br_2m/v1579632944/whale.mp4da</BaseURL>
+        <SegmentList timescale="22050" duration="44100">
+          <Initialization range="0-853" />
+          <SegmentURL mediaRange="854-17588" indexRange="854-897" />
+          <SegmentURL mediaRange="17589-33983" indexRange="17589-17632" />
+          <SegmentURL mediaRange="33984-50428" indexRange="33984-34027" />
+          <SegmentURL mediaRange="50429-66761" indexRange="50429-50472" />
+          <SegmentURL mediaRange="66762-82979" indexRange="66762-66805" />
+          <SegmentURL mediaRange="82980-99395" indexRange="82980-83023" />
+          <SegmentURL mediaRange="99396-115868" indexRange="99396-99439" />
+          <SegmentURL mediaRange="115869-132081" indexRange="115869-115912" />
+          <SegmentURL mediaRange="132082-148435" indexRange="132082-132125" />
+          <SegmentURL mediaRange="148436-164801" indexRange="148436-148479" />
+          <SegmentURL mediaRange="164802-181144" indexRange="164802-164845" />
+          <SegmentURL mediaRange="181145-197500" indexRange="181145-181188" />
+          <SegmentURL mediaRange="197501-214062" indexRange="197501-197544" />
+          <SegmentURL mediaRange="214063-230347" indexRange="214063-214106" />
+          <SegmentURL mediaRange="230348-246594" indexRange="230348-230391" />
+          <SegmentURL mediaRange="246595-263288" indexRange="246595-246638" />
+          <SegmentURL mediaRange="263289-279722" indexRange="263289-263332" />
+          <SegmentURL mediaRange="279723-295967" indexRange="279723-279766" />
+          <SegmentURL mediaRange="295968-312410" indexRange="295968-296011" />
+          <SegmentURL mediaRange="312411-328591" indexRange="312411-312454" />
+          <SegmentURL mediaRange="328592-344929" indexRange="328592-328635" />
+          <SegmentURL mediaRange="344930-361252" indexRange="344930-344973" />
+          <SegmentURL mediaRange="361253-377659" indexRange="361253-361296" />
+          <SegmentURL mediaRange="377660-393943" indexRange="377660-377703" />
+          <SegmentURL mediaRange="393944-410452" indexRange="393944-393987" />
+          <SegmentURL mediaRange="410453-426670" indexRange="410453-410496" />
+          <SegmentURL mediaRange="426671-443068" indexRange="426671-426714" />
+          <SegmentURL mediaRange="443069-459344" indexRange="443069-443112" />
+          <SegmentURL mediaRange="459345-475727" indexRange="459345-459388" />
+          <SegmentURL mediaRange="475728-491828" indexRange="475728-475771" />
+          <SegmentURL mediaRange="491829-493893" indexRange="491829-491872" />
+        </SegmentList>
+      </Representation>
+      <Representation id="8" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" bandwidth="65674">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_960,h_540,vc_h264:main:3.1,br_3500k/v1579632944/whale.mp4da</BaseURL>
+        <SegmentList timescale="22050" duration="44100">
+          <Initialization range="0-853" />
+          <SegmentURL mediaRange="854-17588" indexRange="854-897" />
+          <SegmentURL mediaRange="17589-33983" indexRange="17589-17632" />
+          <SegmentURL mediaRange="33984-50428" indexRange="33984-34027" />
+          <SegmentURL mediaRange="50429-66761" indexRange="50429-50472" />
+          <SegmentURL mediaRange="66762-82979" indexRange="66762-66805" />
+          <SegmentURL mediaRange="82980-99395" indexRange="82980-83023" />
+          <SegmentURL mediaRange="99396-115868" indexRange="99396-99439" />
+          <SegmentURL mediaRange="115869-132081" indexRange="115869-115912" />
+          <SegmentURL mediaRange="132082-148435" indexRange="132082-132125" />
+          <SegmentURL mediaRange="148436-164801" indexRange="148436-148479" />
+          <SegmentURL mediaRange="164802-181144" indexRange="164802-164845" />
+          <SegmentURL mediaRange="181145-197500" indexRange="181145-181188" />
+          <SegmentURL mediaRange="197501-214062" indexRange="197501-197544" />
+          <SegmentURL mediaRange="214063-230347" indexRange="214063-214106" />
+          <SegmentURL mediaRange="230348-246594" indexRange="230348-230391" />
+          <SegmentURL mediaRange="246595-263288" indexRange="246595-246638" />
+          <SegmentURL mediaRange="263289-279722" indexRange="263289-263332" />
+          <SegmentURL mediaRange="279723-295967" indexRange="279723-279766" />
+          <SegmentURL mediaRange="295968-312410" indexRange="295968-296011" />
+          <SegmentURL mediaRange="312411-328591" indexRange="312411-312454" />
+          <SegmentURL mediaRange="328592-344929" indexRange="328592-328635" />
+          <SegmentURL mediaRange="344930-361252" indexRange="344930-344973" />
+          <SegmentURL mediaRange="361253-377659" indexRange="361253-361296" />
+          <SegmentURL mediaRange="377660-393943" indexRange="377660-377703" />
+          <SegmentURL mediaRange="393944-410452" indexRange="393944-393987" />
+          <SegmentURL mediaRange="410453-426670" indexRange="410453-410496" />
+          <SegmentURL mediaRange="426671-443068" indexRange="426671-426714" />
+          <SegmentURL mediaRange="443069-459344" indexRange="443069-443112" />
+          <SegmentURL mediaRange="459345-475727" indexRange="459345-459388" />
+          <SegmentURL mediaRange="475728-491828" indexRange="475728-475771" />
+          <SegmentURL mediaRange="491829-493893" indexRange="491829-491872" />
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

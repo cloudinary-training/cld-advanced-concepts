@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>DASH fallback</title>
+    <link
+      href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../../assets/favicon.png" type="image/png" />
+  </head>
+
+  <body>
+    <h1>Adpative bitrate fallback HLS/Dash</h1>
+    <h2>
+      <a
+        href="https://cloudinary.com/documentation/video_player_hls_dash#specify_multiple_streaming_formats"
+        target="_blank"
+        >from docs</a
+      >
+    </h2>
+    <div class="row video-container">
+      <video
+        id="example-player"
+        controls
+        muted
+        width="680"
+        height="400"
+        class="cld-video-player cld-video-player-skin-dark"
+      ></video>
+    </div>
+    <script
+      src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/3.0.0/dash.all.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-dash/2.9.2/videojs-dash.min.js"
+      type="text/javascript"
+    ></script>
+    <script>
+      let cld = cloudinary.Cloudinary.new({
+        cloud_name: 'cloudinary-training'
+      })
+
+      let playerDash = cld.videoPlayer('example-player', {
+        autoplay: true,
+        showLogo: true,
+        hideContextMenu: true,
+        controls: true
+      })
+
+      playerDash
+        .source('whale', {
+          sourceTypes: ['dash', 'hls'],
+          sourceTransformation: {
+            hls: [
+              {
+                streaming_profile: 'hd'
+              }
+            ],
+            dash: [
+              {
+                streaming_profile: 'hd'
+              }
+            ]
+          }
+        })
+        .play()
+    </script>
+  </body>
+</html>

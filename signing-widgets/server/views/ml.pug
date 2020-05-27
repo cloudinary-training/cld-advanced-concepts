@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Timestamp: #{timestamp}
+  p Signature: #{signature}
+  div
+  button#ml-button
+
+  script(type="text/javascript").
+    document.addEventListener("DOMContentLoaded",e => {
+      const options = {
+      cloud_name: "#{cloudname}",
+      api_key: "#{apikey}",
+      username: "#{username}",
+      timestamp: "#{timestamp}",
+      signature: "#{signature}",
+      button_class: "ml-btn",
+      button_caption: "Open Media Library",
+      insert_transformation: true
+      }
+
+      const insertHandler = data => {
+        data.assets.forEach(asset =>
+          console.log('Inserted asset:', JSON.stringify(asset, null, 1))
+        )
+      }
+      window.cloudinary.createMediaLibrary(
+        options,
+        insertHandler,
+        '#ml-button'
+      )
+    })

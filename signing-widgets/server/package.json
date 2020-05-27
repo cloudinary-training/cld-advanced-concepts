@@ -1,0 +1,24 @@
+{
+  "name": "express-signing-widgets",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "acorn": ">=5.7.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "kind-of": "^6.0.3",
+    "pug": "^2.0.4",
+    "utf8": "^3.0.0"
+  },
+  "resolutions": {
+    "assign-deep": "^1.0.1",
+    "braces": ">=2.3.1",
+    "core-js-pure": "^3.6.5",
+    "set-value": "^3.0.2",
+    "update": "^0.7.4"
+  }
+}

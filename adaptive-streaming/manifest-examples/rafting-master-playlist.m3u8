@@ -1,0 +1,13 @@
+#EXTM3U
+#EXT-X-STREAM-INF:BANDWIDTH=7511000,CODECS="avc1.640028",RESOLUTION=1920x1080
+/demo/video/upload/c_limit,w_1920,h_1080,vc_h264:high:4.0,br_8500k/v1515585993/rafting.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=3633000,CODECS="avc1.4d401f",RESOLUTION=1280x720
+/demo/video/upload/c_limit,w_1280,h_720,vc_h264:main:3.1,br_5500k/v1515585993/rafting.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2281000,CODECS="avc1.4d401f",RESOLUTION=960x540
+/demo/video/upload/c_limit,w_960,h_540,vc_h264:main:3.1,br_3500k/v1515585993/rafting.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1426000,CODECS="avc1.42c01e",RESOLUTION=640x360
+/demo/video/upload/c_limit,w_640,h_360,vc_h264:baseline:3.0,br_2m/v1515585993/rafting.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=839000,CODECS="avc1.42c01e",RESOLUTION=480x270
+/demo/video/upload/c_limit,w_480,h_270,vc_h264:baseline:3.0,br_800k/v1515585993/rafting.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=232000,CODECS="avc1.42c01e",RESOLUTION=320x180
+/demo/video/upload/c_limit,w_320,h_240,vc_h264:baseline:3.0,br_192k/v1515585993/rafting.m3u8

@@ -1,0 +1,76 @@
+{
+  "moderation_response": {
+    "moderation_confidence": "POSSIBLE",
+    "frames": [
+      {
+        "pornography_likelihood": "VERY_LIKELY",
+        "time_offset": 0.056005
+      },
+      {
+        "pornography_likelihood": "LIKELY",
+        "time_offset": 0.963963
+      },
+      {
+        "pornography_likelihood": "LIKELY",
+        "time_offset": 1.7997779999999999
+      },
+      {
+        "pornography_likelihood": "LIKELY",
+        "time_offset": 2.721062
+      },
+      {
+        "pornography_likelihood": "POSSIBLE",
+        "time_offset": 3.5768370000000003
+      },
+      {
+        "pornography_likelihood": "VERY_LIKELY",
+        "time_offset": 4.471178
+      },
+      {
+        "pornography_likelihood": "VERY_LIKELY",
+        "time_offset": 5.378437
+      },
+      {
+        "pornography_likelihood": "VERY_LIKELY",
+        "time_offset": 6.4039719999999996
+      },
+      {
+        "pornography_likelihood": "VERY_LIKELY",
+        "time_offset": 7.42815
+      },
+      {
+        "pornography_likelihood": "VERY_LIKELY",
+        "time_offset": 8.331472
+      },
+      {
+        "pornography_likelihood": "LIKELY",
+        "time_offset": 9.216189
+      },
+      {
+        "pornography_likelihood": "LIKELY",
+        "time_offset": 10.356264
+      },
+      {
+        "pornography_likelihood": "LIKELY",
+        "time_offset": 11.480142
+      },
+      {
+        "pornography_likelihood": "LIKELY",
+        "time_offset": 12.523331
+      },
+      {
+        "pornography_likelihood": "VERY_LIKELY",
+        "time_offset": 13.424781
+      }
+    ]
+  },
+  "moderation_status": "rejected",
+  "moderation_kind": "google_video_moderation",
+  "moderation_updated_at": "2020-03-19T22:54:20Z",
+  "public_id": "hot-tub",
+  "uploaded_at": "2020-03-19T22:53:48Z",
+  "version": 1584658428,
+  "url": "http://res.cloudinary.com/cloudinary-training/video/upload/v1584658428/hot-tub.mp4",
+  "secure_url": "https://res.cloudinary.com/cloudinary-training/video/upload/v1584658428/hot-tub.mp4",
+  "etag": null,
+  "notification_type": "moderation"

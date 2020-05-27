@@ -1,0 +1,284 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="image-transformation-visual-cheat-sheet">Image Transformation Visual Cheat Sheet</h1>
+<p><img src="images/cs-original.png" alt="Original 283 x 424 ar 2:3"></p>
+<p><a href="https://res.cloudinary.com/demo/image/upload/face_top.jpg">https://res.cloudinary.com/demo/image/upload/face_top.jpg</a></p>
+<h2 id="cropping-with-transformations-that-allow-gravity-auto">Cropping with transformations that allow Gravity Auto</h2>
+<p>Transforming from AR 2:3 to AR 1:1</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>crop</th>
+<th>thumb</th>
+<th>fill</th>
+<th>fill pad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>without g_auto</td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_crop,h_150,w_150/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_crop,h_150,w_150/face_top.jpg"></td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_thumb,h_150,w_150/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_thumb,h_150,w_150/face_top.jpg"></td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_fill,h_150,w_150/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_fill,h_150,w_150/face_top.jpg"></td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>with g_auto</td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_crop,h_150,w_150,g_auto/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_crop,h_150,w_150,g_auto/face_top.jpg"></td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_thumb,h_150,w_150,g_auto/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_thumb,h_150,w_150,g_auto/face_top.jpg"></td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_fill,h_150,w_150,g_auto/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_fill,h_150,w_150,g_auto/face_top.jpg"></td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_fill_pad,g_auto,h_150,w_150/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_fill_pad,g_auto,h_150,w_150/face_top.jpg"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table><h3 id="crop-to-width-150-x-height-150">Crop to Width 150 x Height 150</h3>
+<h4 id="crop">crop</h4>
+<p>c_crop 150 x 150</p>
+<p><img src="images/cs-crop-150-150.png" alt="Crop 150 x 150"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_crop,h_150,w_150/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_crop,h_150,w_150/face_top.jpg</a></p>
+<h4 id="crop-with-gravity-auto">crop with gravity auto</h4>
+<p>c_crop 150 x 150 g_auto</p>
+<p><img src="images/cs-crop-g-auto-150-150.png" alt="Crop 150 x 150 with g_auto"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_crop,h_150,w_150,g_auto/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_thumb,h_150,w_150/face_top.jpg</a></p>
+<h4 id="thumb">thumb</h4>
+<p>c_thumb 150 x 150</p>
+<p><img src="images/cs-thumb-150-150.png" alt="Thumb 150 x 150 with g_auto"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_thumb,h_150,w_150/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_thumb,h_150,w_150/face_top.jpg</a></p>
+<h4 id="thumb-with-gravity-auto">thumb with gravity auto</h4>
+<p>c_thumb 150 x 150 g_auto</p>
+<p><img src="images/cs-thumb-g-auto-150-150.png" alt="Thumb 150 x 150 with g_auto"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_thumb,h_150,w_150,g_auto/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_thumb,h_150,w_150,g_auto/face_top.jpg</a></p>
+<h4 id="fill">fill</h4>
+<p>c_fill 150 x 150</p>
+<p><img src="images/cs-fill-150-150.png" alt="Fill 150 x 150 with g_auto"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_fill,h_150,w_150,g_auto/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_fill,h_150,w_150,g_auto/face_top.jpg</a></p>
+<h4 id="fill-with-gravity-auto">fill with gravity auto</h4>
+<p>c_fill 150 x 150 g_auto</p>
+<p><img src="images/cs-fill-g-auto-150-150.png" alt="Fill 150 x 150 with g_auto"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_fill,g_auto,h_150,w_150/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_fill,g_auto,h_150,w_150/face_top.jpg</a></p>
+<h4 id="fill-pad">fill pad</h4>
+<p>N/A</p>
+<h4 id="fill-pad-with-gravity-auto">fill pad with gravity auto</h4>
+<p>c_fill_pad 150 x 150 g_auto</p>
+<p><img src="images/cs-fill-pad-g-auto-150-150.png" alt="Fill 150 x 150 with g_auto"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_fill_pad,g_auto,h_150,w_150/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_fill_pad,g_auto,h_150,w_150/face_top.jpg</a></p>
+<h2 id="cropping-with-transformations-that-do-not-allow-gravity-auto">Cropping with transformations that DO NOT allow Gravity Auto</h2>
+<h3 id="crop-to-height-150-except-limit-pad-150-x-150">Crop to Height 150 except limit pad 150 x 150</h3>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>scale</th>
+<th>limit</th>
+<th>fit</th>
+<th>limit fill</th>
+<th>limit pad ar 1:1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_scale,h_150/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_scale,h_150/face_top.jpg"></td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_limit,h_150/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_limit,h_150/face_top.jpg"></td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_fit,h_150/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_fit,h_150/face_top.jpg"></td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_lfill,h_150/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_lfill,h_150/face_top.jpg"></td>
+<td><img src="https://res.cloudinary.com/demo/image/upload/c_lpad,h_150,w_150,b_green/face_top.jpg" alt="https://res.cloudinary.com/demo/image/upload/c_lpad,h_150,w_150,b_green/face_top.jpg"></td>
+</tr>
+</tbody>
+</table><h4 id="scale">scale</h4>
+<p>c_scale height 150</p>
+<p><img src="images/cs-scale-h-150.png" alt="Scale height 150"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_scale,h_150/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_scale,h_150/face_top.jpg</a></p>
+<h4 id="limit">limit</h4>
+<p>c_limit height 150</p>
+<p><img src="images/cs-limit-h-150.png" alt="Limit height 150"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_limit,h_150/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_limit,h_150/face_top.jpg</a></p>
+<h4 id="fit">fit</h4>
+<p>c_fit height 150</p>
+<p><img src="images/cs-fit-h-150.png" alt="Fit height 150"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_fit,h_150/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_fit,h_150/face_top.jpg</a></p>
+<h3 id="limit-fill">limit fill</h3>
+<p>c_lfill height 150</p>
+<p><img src="images/cs-limit-fill-150.png" alt="Limit Padd 150"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_lfill,h_150/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_lfill,h_150/face_top.jpg</a></p>
+<h4 id="limit-pad-green-background-150-x-150">limit pad green background 150 x 150</h4>
+<p>c_lpad height 150 width 150 green background</p>
+<p><img src="images/cs-limit-pad-green-150-150.png" alt="Limit Padd 150 x 150"><br>
+<a href="https://res.cloudinary.com/demo/image/upload/c_lpad,h_150,w_150,b_green/face_top.jpg">https://res.cloudinary.com/demo/image/upload/c_lpad,h_150,w_150,b_green/face_top.jpg</a></p>
+<h2 id="optimization-and-performance">Optimization and Performance</h2>
+<p>Using Auto Quality and Auto Format</p>
+<h2 id="positioning">Positioning</h2>
+<h3 id="direction">Direction</h3>
+
+<table>
+<thead>
+<tr>
+<th>West</th>
+<th align="center">Center</th>
+<th align="right">East</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_west%20,co_black,g_north_west,b_red/1px.png" alt="north west"></td>
+<td align="center"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north%20,co_black,g_north,b_red/1px.png" alt="north"></td>
+<td align="right"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_east%20,co_black,g_north_east,b_red/1px.png" alt="north east"></td>
+</tr>
+<tr>
+<td><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,b_red/1px.png" alt="west"></td>
+<td align="center"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red/1px.png" alt="center"></td>
+<td align="right"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,b_red/1px.png" alt="east"></td>
+</tr>
+<tr>
+<td><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,b_red/1px.png" alt="south west"></td>
+<td align="center"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,b_red/1px.png" alt="south"></td>
+<td align="right"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,b_red/1px.png" alt="south east"></td>
+</tr>
+</tbody>
+</table><p><strong>CENTER</strong><br>
+<a href="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20CENTER%20,co_black,g_center,b_red/1px.png">https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20: CENTER ,co_black,g_center,b_red/1px.png</a></p>
+<p><strong>N</strong><br>
+<a href="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20N%20,co_black,g_north,b_red/1px.png">https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20: N ,co_black,g_north,b_red/1px.png</a></p>
+<p><strong>NE</strong><br>
+<a href="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20NE%20,co_black,g_north_east,b_red/1px.png">https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20: NE ,co_black,g_north_east,b_red/1px.png</a></p>
+<p><strong>E</strong><br>
+<a href="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20E%20,co_black,g_east,b_red/1px.png">https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20: E ,co_black,g_east,b_red/1px.png</a></p>
+<p><strong>SE</strong><br>
+<a href="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20SE%20,co_black,g_south_east,b_red/1px.png">https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20: SE ,co_black,g_south_east,b_red/1px.png</a></p>
+<p><strong>S</strong><br>
+<a href="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20S%20,co_black,g_south,b_red/1px.png">https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20: S ,co_black,g_south,b_red/1px.png</a></p>
+<p><strong>SW</strong><br>
+<a href="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20SW%20,co_black,g_south_west,b_red/1px.png">https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20: SW ,co_black,g_south_west,b_red/1px.png</a></p>
+<p><strong>W</strong><br>
+<a href="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20W%20,co_black,g_west,b_red/1px.png">https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20: W ,co_black,g_west,b_red/1px.png</a></p>
+<p><strong>NW</strong><br>
+<a href="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20NW%20,co_black,g_north_west,b_red/1px.png">https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20: NW ,co_black,g_north_west,b_red/1px.png</a></p>
+<h3 id="direction-offset-x-10-y-10">Direction offset x 10, y 10</h3>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="center"></th>
+<th align="right"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_west%20,co_black,g_north_west,x_10,y_10,b_red/1px.png" alt="north west"></td>
+<td align="center"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north%20,co_black,g_north,x_10,y_10,b_red/1px.png" alt="north"></td>
+<td align="right"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_east%20,co_black,g_north_east,x_10,y_10,b_red/1px.png" alt="north east"></td>
+</tr>
+<tr>
+<td><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,x_10,y_10,b_red/1px.png" alt="west"></td>
+<td align="center"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red,x_10,y_10/1px.png" alt="center"></td>
+<td align="right"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,x_10,y_10,b_red/1px.png" alt="east"></td>
+</tr>
+<tr>
+<td><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,x_10,y_10,b_red/1px.png" alt="south west"></td>
+<td align="center"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,x_10,y_10,b_red/1px.png" alt="south"></td>
+<td align="right"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,x_10,y_10,b_red/1px.png" alt="south east"></td>
+</tr>
+</tbody>
+</table><h3 id="direction-offset-x--10-y--10">Direction offset x -10, y -10</h3>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="center"></th>
+<th align="right"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_west%20,co_black,g_north_west,x_-10,y_-10,b_red/1px.png" alt="north west"></td>
+<td align="center"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north%20,co_black,g_north,x_-10,y_-10,b_red/1px.png" alt="north"></td>
+<td align="right"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_east%20,co_black,g_north_east,x_-10,y_-10,b_red/1px.png" alt="north east"></td>
+</tr>
+<tr>
+<td><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,x_-10,y_-10,b_red/1px.png" alt="west"></td>
+<td align="center"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red,x_-10,y_-10/1px.png" alt="center"></td>
+<td align="right"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,x_-10,y_-10,b_red/1px.png" alt="east"></td>
+</tr>
+<tr>
+<td><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,x_-10,y_-10,b_red/1px.png" alt="south west"></td>
+<td align="center"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,x_-10,y_-10,b_red/1px.png" alt="south"></td>
+<td align="right"><img src="https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,x_-10,y_-10,b_red/1px.png" alt="south east"></td>
+</tr>
+</tbody>
+</table><h2 id="overlays">Overlays</h2>
+<h3 id="text-and-image-over-video">Text and Image over Video</h3>
+<p>Click image to view video</p>
+<p><a href="https://res.cloudinary.com/demo/video/upload/w_400,c_fill,ar_4:3,q_auto,f_auto/l_cloudinary_icon,g_south_east,y_25,x_5,o_50,w_100//l_text:Times_20:@cloudinary,g_north_east,y_10,x_10,co_rgb:0071BA,o_75/cld_rubiks_guy.mp4" target="_blank"><img src="https://res.cloudinary.com/demo/video/upload/w_400,c_fill,ar_4:3,q_auto,f_auto/l_cloudinary_icon,g_south_east,y_25,x_5,o_50,w_100//l_text:Times_20:@cloudinary,g_north_east,y_10,x_10,co_rgb:0071BA,o_75/cld_rubiks_guy" alt="IMAGE ALT TEXT HERE" width="400" height="300" border="10"></a></p>
+<p>Full URL to video:</p>
+<p><a href="https://res.cloudinary.com/demo/video/upload/w_400,c_fill,ar_4:3,q_auto,f_auto/l_cloudinary_icon,g_south_east,y_25,x_5,o_50,w_100/l_text:Times_20:@cloudinary,g_north_east,y_10,x_10,co_rgb:0071BA,o_75/cld_rubiks_guy.mp4">https://res.cloudinary.com/demo/video/upload/w_400,c_fill,ar_4:3,q_auto,f_auto/l_cloudinary_icon,g_south_east,y_25,x_5,o_50,w_100/l_text:Times_20:@cloudinary,g_north_east,y_10,x_10,co_rgb:0071BA,o_75/cld_rubiks_guy.mp4</a></p>
+<p>URL to base video:</p>
+<p><a href="https://res.cloudinary.com/demo/video/upload/cld_rubiks_guy.mp4">https://res.cloudinary.com/demo/video/upload/cld_rubiks_guy.mp4</a></p>
+<p>URL to Cloudinary Icon:</p>
+<p><a href="https://res.cloudinary.com/demo/image/upload/v1426538492/cloudinary_icon.png">https://res.cloudinary.com/demo/image/upload/v1426538492/cloudinary_icon.png</a></p>
+<p>Text Transformation</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Transformation</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>l_text:Times_20:@cloudinary</td>
+<td>Overlay text using font family Times with font size 20 and text content ‘@cloudinary’</td>
+</tr>
+<tr>
+<td></td>
+<td>g_north_east</td>
+<td>position orientation north east (upper right) corner</td>
+</tr>
+<tr>
+<td></td>
+<td>y_10</td>
+<td>position offset 10 down from the top</td>
+</tr>
+<tr>
+<td></td>
+<td>x_10</td>
+<td>position offset 10 to the left of the right side</td>
+</tr>
+<tr>
+<td></td>
+<td>co_rgb:0071BA</td>
+<td>color RGB hex blue branding color</td>
+</tr>
+<tr>
+<td></td>
+<td>0_75</td>
+<td>opacity 75 with 100 being fully opaque (least transparent)</td>
+</tr>
+</tbody>
+</table><h2 id="effects">Effects</h2>
+</div>
+</body>
+
+</html>

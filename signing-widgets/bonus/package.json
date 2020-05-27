@@ -1,0 +1,19 @@
+{
+  "name": "sign-url-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "description": "API that uses Cloudinary SDK to create URL includin signed URL",
+  "dependencies": {
+    "cloudinary": "^1.13.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "multer": "^1.4.1",
+    "pug": "^2.0.3",
+    "acorn": ">=5.7.4",
+    "minimist": ">=1.2.2",
+    "set-value": ">=3.0.1"
+  },
+  "devDependencies": {}
+}

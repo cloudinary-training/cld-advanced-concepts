@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Subitltes</title>
+  <link href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css" rel="stylesheet">
+  <link rel="icon" href="../../assets/favicon.png" type="image/png" />
+</head>
+
+<body>
+<h1>Video Player</h1>
+<h2>Closed Captions</h2>
+<div style="max-width:400px">
+  <video id="example-player" controls muted class="cld-video-player cld-video-player-skin-dark"
+    data-cld-transformation='{ "width": 400, "crop": "fill"}'>
+  </video>
+</div>
+
+<!-- video widget -->
+<script src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.min.js" type="text/javascript">
+</script>
+<script src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.js" type="text/javascript">
+</script>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+
+    // add your cloud name
+    const cld = cloudinary.Cloudinary.new({
+      cloud_name: 'cloudinary-training'
+    })
+
+    // Initialize player
+    const player = cld.videoPlayer('example-player')
+
+    // add your video text tracks
+    player.source(
+      'ul-video',
+      {
+        textTracks: {
+          captions: {
+            label: 'English captions',
+            language: 'en',
+            default: true,
+            url: 'https://res.cloudinary.com/cloudinary-training/raw/upload/ul-video.vtt'
+          },
+          subtitles: [
+            {
+              label: 'English subtitles',
+              language: 'en',
+              url: 'https://res.cloudinary.com/cloudinary-training/raw/upload/ul-video.vtt'
+            }
+          ]
+        }
+      });
+
+  })
+</script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+{
+  "status": "complete",
+  "data": [
+    {
+      "bounding_box": {
+        "top": 393.9962476547842,
+        "left": 371.48217636022514,
+        "width": 172.6078799249531,
+        "height": 172.6078799249531
+      },
+      "attributes": {
+        "smile": 0.995,
+        "head_pose": { "pitch": -10.8, "roll": 1.6, "yaw": 9.6 },
+        "gender": "female",
+        "age": 22,
+        "facial_hair": { "moustache": 0, "beard": 0, "sideburns": 0 },
+        "glasses": "NoGlasses",
+        "emotion": {
+          "anger": 0,
+          "contempt": 0,
+          "disgust": 0,
+          "fear": 0,
+          "happiness": 0.995,
+          "neutral": 0.004,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "blur": { "blurLevel": "low", "value": 0.02 },
+        "exposure": { "exposureLevel": "goodExposure", "value": 0.55 },
+        "noise": { "noiseLevel": "low", "value": 0 },
+        "makeup": { "eyeMakeup": true, "lipMakeup": true },
+        "accessories": [],
+        "occlusion": {
+          "foreheadOccluded": false,
+          "eyeOccluded": false,
+          "mouthOccluded": false
+        },
+        "hair": {
+          "bald": 0.02,
+          "invisible": false,
+          "hairColor": [
+            { "color": "brown", "confidence": 0.99 },
+            { "color": "red", "confidence": 0.55 },
+            { "color": "blond", "confidence": 0.41 },
+            { "color": "black", "confidence": 0.35 },
+            { "color": "gray", "confidence": 0.11 },
+            { "color": "other", "confidence": 0.09 }
+          ]
+        }
+      },
+      "facial_landmarks": {
+        "mouth": {
+          "left": { "x": 424.953095684803, "y": 519.1369606003752 },
+          "right": { "x": 494.55909943714823, "y": 519.1369606003752 },
+          "under_lip": {
+            "bottom": { "x": 463.4146341463414, "y": 544.8405253283302 },
+            "top": { "x": 462.85178236397746, "y": 531.5196998123828 }
+          },
+          "upper_lip": {
+            "bottom": { "x": 464.3527204502814, "y": 527.3921200750469 },
+            "top": { "x": 465.1031894934334, "y": 520.8255159474671 }
+          }
+        },
+        "eyebrow": {
+          "left_outer": { "x": 388.36772983114446, "y": 425.14071294559096 },
+          "left_inner": { "x": 451.03189493433393, "y": 425.8911819887429 },
+          "right_inner": { "x": 478.4240150093808, "y": 425.32833020637895 },
+          "right_outer": { "x": 525.7035647279549, "y": 419.5121951219512 }
+        },
+        "eye": {
+          "left_outer": { "x": 405.81613508442774, "y": 440.71294559099437 },
+          "left_top": { "x": 419.8874296435272, "y": 433.39587242026266 },
+          "left_bottom": { "x": 418.94934333958724, "y": 447.2795497185741 },
+          "left_inner": { "x": 433.5834896810506, "y": 441.4634146341463 },
+          "right_inner": { "x": 484.8030018761725, "y": 441.27579737335833 },
+          "right_top": { "x": 497.18574108818007, "y": 430.2063789868668 },
+          "right_bottom": { "x": 499.624765478424, "y": 444.65290806754217 },
+          "right_outer": { "x": 511.44465290806755, "y": 436.21013133208254 },
+          "left_pupil": { "x": 413.8836772983114, "y": 439.0243902439024 },
+          "right_pupil": { "x": 488.5553470919324, "y": 437.7110694183865 }
+        },
+        "nose": {
+          "tip": { "x": 470.73170731707313, "y": 493.9962476547842 },
+          "root_left": { "x": 451.96998123827393, "y": 444.0900562851782 },
+          "root_right": { "x": 475.04690431519697, "y": 444.27767354596625 },
+          "left_alar_top": { "x": 448.780487804878, "y": 477.67354596622886 },
+          "right_alar_top": {
+            "x": 481.42589118198873,
+            "y": 476.92307692307685
+          },
+          "left_alar_out_tip": {
+            "x": 441.08818011257034,
+            "y": 493.2457786116322
+          },
+          "right_alar_out_tip": {
+            "x": 486.4915572232645,
+            "y": 490.05628517823635
+          }
+        }
+      }
+    }
+  ]
+}

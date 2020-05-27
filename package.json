@@ -1,0 +1,44 @@
+{
+  "name": "advanced-concepts",
+  "version": "1.0.0",
+  "description": "Code in support of Cloudinary Advanced Concepts for Developers Course",
+  "main": "test-env.js",
+  "scripts": {
+    "test-env": "node ./test-env",
+    "test-upload": "node ./test-upload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudinary-training/advanced-concepts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudinary-training/advanced-concepts/issues"
+  },
+  "homepage": "https://github.com/cloudinary-training/advanced-concepts#readme",
+  "dependencies": {
+    "acorn": "^7.2.0",
+    "cloudinary": "^1.21.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "kind-of": ">=6.0.3",
+    "moment": "^2.26.0",
+    "open": "^7.0.4",
+    "urlsafe-base64": "^1.0.0"
+  },
+  "devDependencies": {
+    "braces": ">=2.3.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.19.1"
+  }
+}

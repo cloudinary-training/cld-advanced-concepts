@@ -1,0 +1,8 @@
+.env
+.env.backup
+node_modules/
+.frontend.txt
+.vscode/
+.prettierrc
+vscode/settings.json
+
