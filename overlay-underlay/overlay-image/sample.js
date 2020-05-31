@@ -12,8 +12,6 @@ const url = cloudinary.url('chalkboard', {
       width: 150,
       x: -70,
       y: 50,
-      fetch_format: 'auto',
-      quality: 'auto',
       radius: 30
     },
     {
@@ -30,7 +28,8 @@ const url = cloudinary.url('chalkboard', {
       width: 150,
       x: 90,
       y: 75
-    }
+    },
+    { fetch_format: 'auto', quality: 'auto' }
   ]
 })
 
