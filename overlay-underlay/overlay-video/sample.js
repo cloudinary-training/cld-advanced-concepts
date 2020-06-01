@@ -4,7 +4,6 @@ const open = require('open')
 
 const url = cloudinary.url('wave', {
   resource_type: 'video',
-
   transformation: [
     { width: 500, crop: 'scale' },
     {
@@ -16,7 +15,7 @@ const url = cloudinary.url('wave', {
     },
     {
       overlay: {
-        font_family: 'Trade Winds',
+        font_family: 'Architects Daughter',
         font_size: 30,
         text: '  Catch a wave  '
       },

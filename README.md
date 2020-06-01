@@ -4,7 +4,7 @@ This folder contains data and scripts to use with exercises in Advanced Concepts
 
 ## assets  
 
-Assets used in this course can be found in the `/assets` directory.  They can be served from the course repo as https://cloudinary-training.github.io/advanced-concepts/assets<path to asset> for example https://cloudinary-training.github.io/advanced-concepts/assets/images/cc0.png.
+Assets used in this course can be found in the `/assets` directory.  They can be served from the course repo as https://cloudinary-training.github.io/cld-advanced-concepts/assets<path to asset> for example https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/cc0.png.
 
 
 ## Web Server
@@ -14,7 +14,7 @@ This folder contains asset folders that can be served using github.io.  To turn 
 3. select `master branch` from source
 4. check enforce HTTPS if you are using a CNAME for your github.io repo
 5. you should be able to serve the assets using this URL:
-```https://<domain name | accountname.github.io>/advanced-concepts/<images | raw | video>```
+```https://<domain name | accountname.github.io>/cld-advanced-concepts/<images | raw | video>```
 
 ## env variables and credentials
 

@@ -6,7 +6,7 @@ const cloudinary = require('cloudinary').v2
 // upload something else to oranges
 cloudinary.uploader
   .explicit(
-    'https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg',
+    'https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/oranges.jpg',
     {
       type: 'fetch',
       invalidate: true

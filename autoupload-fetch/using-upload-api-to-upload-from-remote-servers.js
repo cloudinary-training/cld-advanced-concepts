@@ -4,7 +4,7 @@ const open = require('open')
 
 cloudinary.uploader
   .upload(
-    'https://cloudinary-training.github.io/advanced-concepts/assets/images/cc0.png',
+    'https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/cc0.png',
     {
       public_id: 'cc0',
       type: 'upload'

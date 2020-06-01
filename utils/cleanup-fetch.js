@@ -30,19 +30,19 @@ function deletePublicIds(publicIds) {
 const assets = [
   {
     public_id:
-      'https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg',
+      'https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/oranges.jpg',
     resource_type: 'image',
     type: 'fetch'
   },
   {
     public_id:
-      'https://cloudinary-training.github.io/advanced-concepts/assets/images/cc0.png',
+      'https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/cc0.png',
     resource_type: 'image',
     type: 'fetch'
   },
   {
     public_id:
-      'https://cloudinary-training.github.io/advanced-concepts/assets/images/strawberry.png',
+      'https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/strawberry.png',
     resource_type: 'image',
     type: 'fetch'
   }

@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cloudinary-training/advanced-concepts.git"
+    "url": "git+https://github.com/cloudinary-training/cld-advanced-concepts.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cloudinary-training/advanced-concepts/issues"
+    "url": "https://github.com/cloudinary-training/cld-advanced-concepts/issues"
   },
-  "homepage": "https://github.com/cloudinary-training/advanced-concepts#readme",
+  "homepage": "https://github.com/cloudinary-training/cld-advanced-concepts#readme",
   "dependencies": {
     "acorn": "^7.2.0",
     "cloudinary": "^1.21.0",
