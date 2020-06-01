@@ -1,4 +1,9 @@
-# signing-widgets
+---
+title: "Objectives"
+metaTitle: "Objectives"
+metaDescription: "Objectives"
+---
+
 
 ## Widgets
 
@@ -10,7 +15,7 @@
 - Become familiar with the signing functions and how to include them in an application
 - Bonus: how to create an API that will sign your URLs
 
-As you study the images of the widgets below, you'll recongnize them as looking identical to what is provided in the Cloudinary DAM.  When you instruct the creation of these widgets in your code, hidden iframes are set up in your browser memory and are made visible by a user clicking on a button. 
+As you study the images of the widgets below, you'll recognize them as looking identical to what is provided in the Cloudinary DAM.  When you instruct the creation of these widgets in your code, hidden iframes are set up in your browser memory and are made visible by a user clicking on a button. 
 
 ## Media Library  
 ![Media Library Widget](https://res.cloudinary.com/cloudinary-training/image/upload/v1588093366/book/media-library.png)
@@ -25,13 +30,21 @@ In this module we'll create a server that contains modules for signing the Uploa
 
 1. Server side rendering  
 2. APIs
+---
+title: "Signed vs. Unsigned"
+metaTitle: "Signed vs. Unsigned"
+metaDescription: "Signed vs. Unsigned"
+---
+
+
+
 It is possible to render and use both signed and unsigned widgets.  In order to better understand the difference, we'll code both of them.  
 
 ## Signed vs. Unsigned Widget Input
 
 ![Signed vs Unsigned Inputs](https://res.cloudinary.com/cloudinary-training/image/upload/v1588093966/book/unsigned-v-signed-input.png)
 
-The two widgets require different inputs, and noticed that both widgets require the **API_SECRET** and a **timestamp** in order to be signed.  The API_SECRET is a part of your Cloudinary credentials that must remain hidden.  You can't supply it in front end code.  You'll either need to use a server or a serverless function to write code that uses the API_SECRET.  Your CLOUDINARY_URL contains the API_SECRET, so this is a good value to add to your environment variables.  Remeber, you can access the individual variables from teh CLOUDINARY_URL by using the SDK.  
+The two widgets require different inputs, and noticed that both widgets require the **API_SECRET** and a **timestamp** in order to be signed.  The API_SECRET is a part of your Cloudinary credentials that must remain hidden.  You can't supply it in front end code.  You'll either need to use a server or a serverless function to write code that uses the API_SECRET.  Your CLOUDINARY_URL contains the API_SECRET, so this is a good value to add to your environment variables.  Remember, you can access the individual variables from the CLOUDINARY_URL by using the SDK.  
 
 ```JavaScript
 require('dotenv').config()
@@ -42,9 +55,17 @@ const apiKey = cloudinary.config().api_key
 
 ```
 ## Unsigned Credentials
-Notice that the Media Library Widget uses the API_KEY and the Upload Widget uses an unsigned preset for front end credentials when they are unsigned.  This is sufficient for may workflows.  Whether you're using signed or unsigned widgets, its a good idea to host them on web pages that are authenticated in some way or behind a firewall because they allow you to modify the contents of your cloud.
+Notice that the Media Library Widget uses the API_KEY and the Upload Widget uses an unsigned preset for front end credentials when they are unsigned.  This is sufficient for may work-flows.  Whether you're using signed or unsigned widgets, its a good idea to host them on web pages that are authenticated in some way or behind a firewall because they allow you to modify the contents of your cloud.
 
 The API_KEY and unsigned presets can be managed by changing their values: the API_KEY can be reset and the unsigned presets can be deleted or renamed.  Even with such management, they signed widgets will be more secure than the unsigned widgets because they are rendered with a timestamp and are only valid for use 1 hour from when they are rendered.
+---
+title: "Unsigned Example"
+metaTitle: "Unsigned Example"
+metaDescription: "Unsigned Example"
+---
+
+
+
 ## Unsigned Widgets
 
 Before we look at how to sign widgets, let look at how to set up unsigned widgets.  The code for the front end is very similar whether you are signing or not.  We'll see that the inputs for the Upload and Media Library widgets are different, but that the organization of the front end code and libraries is similar.  
@@ -58,7 +79,7 @@ Before we look at how to sign widgets, let look at how to set up unsigned widget
 Create an unsigned preset “widget-preset” for upload widget: 
 
 ```bash
-signing-widgets/unsigned-example/create-preset.js
+node signing-widgets/unsigned-example/create-preset.js
 ```
 
 
@@ -205,6 +226,13 @@ const renderMediaLibrary = () => {
 }
 ```
 
+
+
+---
+title: "Signing Application"
+metaTitle: "Signing Application"
+metaDescription: "Signing Application"
+---
 
 
 
@@ -541,6 +569,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
 
+---
+title: "Bonus: API Sign URL"
+metaTitle: "Bonus: API Sign URL"
+metaDescription: "Bonus: API Sign URL"
+---
+
+
+
 ## Create an API that could help with asset signing from the front end
 Since we're creating APIs to help with securing widgets via AJAX, in this bonus section we look at creating an API that can make it easy to sign a URL from the front end.  If you make this API call available on the front end, you'll want any pages using it to be available only behind a firewall or using token authentication.
 
@@ -664,4 +700,14 @@ app.post('/api/signurl', (req, res) => {
  ```
 
 
+
+---
+title: "Resources"
+metaTitle: "Resources"
+metaDescription: "Resources"
+---
+
+Generating a signature: 
+
+https://cloudinary.com/documentation/upload_images#generating_authentication_signatures
 
