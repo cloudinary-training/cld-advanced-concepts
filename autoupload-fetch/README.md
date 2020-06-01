@@ -99,7 +99,7 @@ https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/orange
 
 You can see in the image below that the image is availabe in the root of the DAM.  The public ID is the full URL to the original image.  Even though there are `/` in the public id, for fetched images this does not mean they are in a directory in the cloud.  You can also see that the icon for the type is a **link**.
 
-![fetched asset in DAM](https://res.cloudinary.com/cloudinary-training/image/upload/v1590603690/book/fetch-dam.png)
+![fetched asset in DAM](https://res.cloudinary.com/cloudinary-training/image/upload/v1591033838/book/fetch-cld-ac.png)
 
 ## Exercise: Fetch with Transformation
 
@@ -188,7 +188,7 @@ You can set up multiple mappings between external assets and a local Cloudinary 
 
 You mapping should look like this:
 
-![remote-media mapping](https://res.cloudinary.com/cloudinary-training/image/upload/v1590610481/book/autoupload-remote-media-mapping.png)
+![remote-media mapping](https://res.cloudinary.com/cloudinary-training/image/upload/book/autoupload-remote-media-mapping.png)
 
 5.  Save the settings
 
@@ -266,7 +266,7 @@ Just to keep assets logically separate, we're going to create a new mapping call
 4. Choose a name for a local folder in your Cloudinary account: **remote-media-secure**
 5. Enter a URL to map to your Cloudinary Folder https://cloudinary-training.github.io/cld-advanced-concepts/assets-secure/`
 
-![auto-upload private](https://res.cloudinary.com/cloudinary-training/image/upload/v1590611710/book/auto-upload-private.png)
+![auto-upload private](https://res.cloudinary.com/cloudinary-training/image/upload/book/auto-upload-private.png)
 
 Now we can execute the script that will upload images as private by setting the option `type: 'private'`.  When this URL is opened a new directory named `remote-media-secure` will be created the uploaded image will be private.
 
@@ -338,7 +338,10 @@ cloudinary.api
 ```
 Notice that in green, it says that it will be used by `remote-images` Auto-Upload Mapping.  **If you want to add a preset to an Auto_Upload, just name the preset the same name as the mapped directory.**
 
-[auto-upload preset](https://res.cloudinary.com/cloudinary-training/image/upload/v1590612353/book/auto-upload-preset.png)
+![auto upload mapping images only](https://res.cloudinary.com/cloudinary-training/image/upload/v1591034691/book/autoupload-mapping-remote-images.png) 
+
+
+![auto-upload preset](https://res.cloudinary.com/cloudinary-training/image/upload/v1590612353/book/auto-upload-preset.png)
 
 Now we'll use the preset in an upload
 

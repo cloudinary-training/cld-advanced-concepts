@@ -191,7 +191,7 @@ In github.com settings:
 -- Click Enforce HTTPS if you have the option available.
 You can also serve assets from the training github account: https://cloudinary-training.github.io/cld-advanced-concepts. 
 
-![gh-pages](https://res.cloudinary.com/cloudinary-training/image/upload/v1588285680/book/setup-gh-pages.png)
+![gh-pages](https://res.cloudinary.com/cloudinary-training/image/upload/book/setup-gh-pages.png)
 
 
 ## VS Code Node debug  
