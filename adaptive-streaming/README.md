@@ -384,3 +384,6 @@ metaDescription: "Resources"
 Adaptive Streaming
 
 https://cloudinary.com/documentation/video_player_hls_dash
+
+Codec Support by Browser Matrix
+https://videojs.com/html5-video-support/

@@ -11,7 +11,7 @@
     "cloudinary-video-player": "^1.4.0",
     "cloudinary-vue": "^1.1.0",
     "current-script-polyfill": "^1.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "vue": "^2.5.22",
     "vue-router": "^3.3.2"
   },

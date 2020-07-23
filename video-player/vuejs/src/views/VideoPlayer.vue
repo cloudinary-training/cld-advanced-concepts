@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>Video Player</h3>
-    <video id='demo-player' width="500" class='cld-video-player'></video>
+    <video id='demo-player' width="500" class="cld-video-player"></video>
   </div>
 </template>
 
@@ -17,6 +17,7 @@ export default {
 
     /*global cloudinary - cloudinary JS SDK*/
     /*eslint no-undef: 'error'*/
+    // debugger
     const cld = cloudinary.Cloudinary.new({
       cloud_name: 'cloudinary-training'
     });
