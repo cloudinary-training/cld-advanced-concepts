@@ -6,4 +6,4 @@ const open = require('open')
 // look at network caching
 const url = cloudinary.url('remote-media/images/pineapple.jpg')
 console.log(url)
-open(url, { browser: 'chrome', incognito: true }) // bypass browser cache
+open(url, {app: ['google chrome', '--incognito']}) // bypass browser cache
