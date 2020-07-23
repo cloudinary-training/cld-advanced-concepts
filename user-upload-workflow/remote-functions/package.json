@@ -12,7 +12,8 @@
     "kind-of": ">=6.0.3",
     "multer": "^1.4.2",
     "open": "^7.0.3",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "lodash": "^4.17.19"
   },
   "devDependencies": {},
   "scripts": {
