@@ -156,7 +156,7 @@ In this section we'll see how to get the Cloudinary Video Player running on a st
 
 ## Exercise: Loading Libraries
 
-JavaScript libraries available on [CDN](https://unpkg.com/#/) or [npmjs.org](https://www.npmjs.com/package/cloudinary-video-player).  We'll use both in this course.  For this section, we've mocked a build process that installs node_modules and copies them to a `my_node_modules` directory.  This allows use to serve this [page](https://cloudinary-training.github.io/cld-advanced-concepts/video-player/video-player.html) from github.io without uploading `node_modules`.  
+JavaScript libraries available on [CDN](https://unpkg.com/#/) or [npmjs.org](https://www.npmjs.com/package/cloudinary-video-player).  We'll use both in this course.  For this section, we're using libraries from the CDN.  This allows use to serve this [page](https://cloudinary-training.github.io/cld-advanced-concepts/video-player/video-player.html) from github.io without uploading `node_modules`.  
 
 There are 3 dependencies for the full video player that need to be installed.
 
@@ -166,16 +166,16 @@ npm install lodash cloudinary-core cloudinary-video-player
 
 Look at code and open in browser:  `video-player/video-player.html`
 
-The HTML below shows that we need to reference a CSS file, `lodash` (a JavaScript utility library), `cloudinary-core` (the JavaScript SDK), and `cld-video-player.min.js` (the video player).
+The HTML below shows that we need to reference a CSS file,  `cloudinary-core-shrinkwwrap` (the JavaScript SDK), and `cld-video-player.min.js` (the video player).
 
 ```html
 <head>
-  <link href="./my_node_modules/cld-video-player.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css" rel="stylesheet"/>
 </head>
 ...
-<script src="./my_node_modules/lodash.js" type="text/javascript"></script>
-<script src="./my_node_modules/cloudinary-core.js" type="text/javascript"></script>
-<script src="./my_node_modules/cld-video-player.min.js" type="text/javascript" ></script>
+
+<script src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.js" type="text/javascript" ></script>
 
 ```
 
