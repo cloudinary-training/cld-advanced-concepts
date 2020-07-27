@@ -2,8 +2,8 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 //step 1
 cloudinary.uploader
-  .upload('assets/images/shell.jpg', {
-    public_id: 'shell',
+  .upload('assets/images/shoes.jpg', {
+    public_id: 'shoes',
     categorization: 'aws_rek_tagging',
     auto_tagging: 0.85
   })

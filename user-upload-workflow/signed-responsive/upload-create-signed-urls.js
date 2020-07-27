@@ -17,6 +17,7 @@ cloudinary.uploader
   })
   .then(result => {
     console.log(result)
+    // get a list of siged transformed URLs
     const urls = result.responsive_breakpoints[0].breakpoints.map(
       item => item.secure_url
     )

@@ -1,7 +1,10 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
-let url = cloudinary.url('zgsv1hmttc7kwiztp0gt', {
+// this is a sample of setting up a url for repsonsive images manually
+
+
+let url = cloudinary.url('blue-chair', {
   sign_url: true,
   transformation: [
     { aspect_ratio: '16:9', crop: 'fill', gravity: 'auto' },
@@ -13,7 +16,7 @@ let url = cloudinary.url('zgsv1hmttc7kwiztp0gt', {
 })
 console.log(url)
 
-url = cloudinary.url('zgsv1hmttc7kwiztp0gt', {
+url = cloudinary.url('blue-chair', {
   sign_url: true,
   transformation: [
     { aspect_ratio: '16:9', crop: 'fill', gravity: 'auto' },
@@ -25,8 +28,7 @@ url = cloudinary.url('zgsv1hmttc7kwiztp0gt', {
 })
 console.log(url)
 
-// this is a sample of setting up a url for repsonsive images manually
-url = cloudinary.url('zgsv1hmttc7kwiztp0gt', {
+url = cloudinary.url('blue-chair', {
   sign_url: true,
   transformation: [
     { aspect_ratio: '16:9', crop: 'fill', gravity: 'auto' },
