@@ -50,19 +50,7 @@ const url = cloudinary.url("1px", {
       x: "$tile",
       y: "0",
     },
-    {
-      overlay: "$img3",
-      width: "$tile",
-      crop: "fill",
-      gravity: "auto",
-      height: "$tile",
-    },
-    {
-      flags: "layer_apply",
-      gravity: "north_west",
-      x: "$tile * 2",
-      y: "0",
-    },
+    
 
 
     {
@@ -78,6 +66,22 @@ const url = cloudinary.url("1px", {
       x: 0,
       y: "$tile",
     },
+
+    {
+      overlay: "$img3",
+      width: "$tile",
+      crop: "fill",
+      gravity: "auto",
+      height: "$tile",
+    },
+    {
+      flags: "layer_apply",
+      gravity: "north_west",
+      x: "$tile * 2",
+      y: "0",
+    },
+
+
     {
       overlay: "$img5",
       width: "$tile",
