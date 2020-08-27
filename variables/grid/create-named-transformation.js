@@ -98,13 +98,13 @@ cloudinary.api
           font_size: 200,
           text: '%20%24%28title%29%20'
         },
-        color: 'yellow',
+        color: 'rgb:bada55',
         background: 'indigo',
         'font-weight': 'bold',
         gravity: 'center',
         width: '$fontw'
       },
-      { border: '5px_solid_yellow' }
+      { border: '5px_solid_rgb:bada55' }
     ]
   })
   .then(result => {
