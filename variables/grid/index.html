@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repsonsive Grid</title>
+    <style>
+      img {
+        width: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div >
+      <img
+        data-src="https://res.cloudinary.com/sep-2020-test/image/upload/$imgw_800,$ftile_$imgw_div_3,$tile_$ftile_to_i,$fontw_$imgw_div_4,$img1_!kiwi!,$img2_!blackberry!,$img3_!strawberry!,$img4_!pineapple!,$img5_!cherries!,$img6_!grapes!,$title_!Fruit!/t_grid-maker/c_scale,dpr_auto,w_auto/1px"
+        alt="fruit grid"
+        class="cld-responsive"
+      />
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', e => {
+        const cl = cloudinary.Cloudinary.new({ cloud_name: 'sep-2020-test' })
+        cl.responsive()
+      })
+    </script>
+    <script
+      src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.min.js"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>
