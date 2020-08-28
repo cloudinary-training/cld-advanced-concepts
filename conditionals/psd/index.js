@@ -2,7 +2,6 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 const open = require('open')
 
-//mountains are the default
 function generateVaction(vacay) {
   const url = cloudinary.url('PSDtemplate', {
     transformation: [
