@@ -10,6 +10,8 @@
       href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css"
       rel="stylesheet"
     />
+    <link rel="icon" href="../../assets/favicon.png" type="image/png" />
+
   </head>
   <body>
     <h2>Video Player</h2>
@@ -41,7 +43,8 @@
       document.addEventListener('DOMContentLoaded', async () => {
         // video player
         const cld = window.cloudinary.Cloudinary.new({
-          cloud_name: 'demo'
+          cloud_name: 'demo',
+          secure: true
         })
         const demoplayer = cld.videoPlayer('doc-player')
         demoplayer.source('race_road_car')

@@ -19,12 +19,14 @@ export default {
     /*eslint no-undef: 'error'*/
     // debugger
     const cld = cloudinary.Cloudinary.new({
-      cloud_name: 'cloudinary-training'
+      cloud_name: 'cloudinary-training',
+      secure: true
     });
     // video play object
     const demoplayer = cld.videoPlayer('demo-player', {
       autoplay: false,
       muted: true,
+
       controls: true,
       transformation: [
         { width: 500, crop: 'fit' },

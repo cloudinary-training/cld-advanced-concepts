@@ -22,6 +22,8 @@
       margin: 0 auto;
     }
   </style>
+  <link rel="icon" href="../../assets/favicon.png" type="image/png" />
+
 </head>
 
 <body>
@@ -145,7 +147,8 @@
 
 
       const cld = cloudinary.Cloudinary.new({
-        cloud_name: 'cloudinary-training'
+        cloud_name: 'cloudinary-training',
+        secure: true
       })
 
       // Initialize players

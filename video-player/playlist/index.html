@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Video Recommendations</title>
   <link href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css" rel="stylesheet">
+  <link rel="icon" href="../../assets/favicon.png" type="image/png" />
 </head>
 
 <body></body>
@@ -32,7 +33,8 @@
   document.addEventListener("DOMContentLoaded", function () {
 
     var cld = cloudinary.Cloudinary.new({
-      cloud_name: 'cloudinary-training'
+      cloud_name: 'cloudinary-training',
+      secure: true
     })
 
 

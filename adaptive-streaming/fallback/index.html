@@ -30,16 +30,11 @@
   <!-- Cloudinary Video Player Dependencies -->
   <script src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.min.js" type="text/javascript"></script>
   <script src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.js" type="text/javascript"></script>
- 
-  <!-- dash libraries -->
-  <script type="text/javascript" src="//cdn.dashjs.org/latest/dash.all.min.js">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-dash/2.11.0/videojs-dash.min.js" type="text/javascript"></script>
- 
 
   <script type="text/javascript">
     const cld = cloudinary.Cloudinary.new({
-      cloud_name: 'cloudinary-training'
+      cloud_name: 'cloudinary-training',
+      secure:true
     })
 
     // Initialize player
