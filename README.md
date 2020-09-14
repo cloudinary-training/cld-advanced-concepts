@@ -1,8 +1,4 @@
----
-title: "Cloudinary Account"
-metaTitle: "Cloudinary Account"
-metaDescription: "Cloudinary Account"
----
+# Cloudinary Advanced Concepts 
 
 
 ## Create a free Cloudinary training account
@@ -15,11 +11,8 @@ Sign up [here](https://cloudinary.com/users/register/free)
 For example, I can create an account with this email:
 `GMail-account+training@cloudinary.com`  
 
-This is important, as we’ll be configuring settings and using Cloudinary add-ons.---
-title: "Node.js"
-metaTitle: "NOde.js"
-metaDescription: "Node.js"
----
+This is important, as we’ll be configuring settings and using Cloudinary add-ons.
+
 
 ## Node/NPM
 
@@ -30,24 +23,20 @@ Install the latest version of node/npm to follow along with node exercises.
 [Download node.js and npm](https://nodejs.org/en/download/)  
  
 
-You can update node/npm with this command: `npm i npm@latest -g`  
+You can update node/npm with this command: `npm i npm@latest -g` 
 
-![node version](https://res.cloudinary.com/cloudinary-training/image/upload/v1588283690/book/setup-node-version.png)---
-title: "Visual Studio Code"
-metaTitle: "Visual Studio Code"
-metaDescription: "Visual Studio Code"
----
+
+![node version](https://res.cloudinary.com/cloudinary-training/image/upload/w_350/book/setup-node-version.png)
+
+
 
 
 # IDE Visual Studio Code  
 
 I’ll be using [Visual Studio Code](https://code.visualstudio.com/) with the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to serve HTML files on localhost.  
 
-Another alternative to using the VS Code live server extension is to `npm i -g http-server` and open the server from the terminal with `npx http-server`.---
-title: "Code Repository"
-metaTitle: "Code Repository"
-metaDescription: "Code Repository"
----
+Another alternative to using the VS Code live server extension is to `npm i -g http-server` and open the server from the terminal with `npx http-server`.
+
 
 
 
@@ -64,11 +53,6 @@ https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/cc0.pn
 duplicating this repository into your own GitHub account. Forking allows you to pull from
 upstream later if you want. Go to Settings and set up [gh pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to serve the HTML files.  
 
----
-title: "Environment Variables"
-metaTitle: "Environment Variables"
-metaDescription: "Environment Variables"
----
 
 
 
