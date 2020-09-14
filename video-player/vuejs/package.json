@@ -9,7 +9,7 @@
   "dependencies": {
     "cloudinary-core": "^2.8.2",
     "cloudinary-video-player": "^1.4.3",
-    "cloudinary-vue": "^1.1.0",
+    "cloudinary-vue": "^1.1.2",
     "current-script-polyfill": "^1.0.0",
     "lodash": "^4.17.19",
     "serialize-javascript": "^4.0.0",
