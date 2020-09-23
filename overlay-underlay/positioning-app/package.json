@@ -12,7 +12,8 @@
     "bootstrap-vue": "2.16.0",
     "cloudinary-core": "2.11.2",
     "vue": "^2.6.11",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "node-forge": ">=0.10.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "4.1.1",
