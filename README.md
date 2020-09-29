@@ -85,7 +85,7 @@ These are the directories that contain a package.json and need the npm install:
 
 1. signing-widgets/bonus  
 2. signing-widgets/server  
-3. user-upload-workflows/remote-functions  
+3. user-upload-workflow/remote-functions  
 4. video-player/vuejs  
 
 All scripts (unless otherwise noted in a module) can be run from the root of the
@@ -108,7 +108,7 @@ node test-env.js
 Test that you can upload assets:
 
 ```bash
-node test-update.js
+node test-upload.js
 ``` 
 ---
 title: "Vuejs setup"
