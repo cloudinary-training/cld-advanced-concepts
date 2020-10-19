@@ -19,7 +19,7 @@ export default {
     /*eslint no-undef: 'error'*/
     // debugger
     const cld = cloudinary.Cloudinary.new({
-      cloud_name: 'cloudinary-training',
+      cloud_name: 'oct-2020-test',
       secure: true
     });
     // video play object
