@@ -22,7 +22,7 @@ const url = cloudinary.url('1px', {
     {
       transformation: [
         'grid-maker',
-        {quality: 'auto', fetch_format: 'auto' }
+        { width: 'auto', crop: 'scale', dpr: 'auto', quality: 'auto', fetch_format: 'auto' }
       ]
     }
   ]

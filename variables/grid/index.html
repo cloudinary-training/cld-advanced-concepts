@@ -13,7 +13,7 @@
   <body>
     <div >
       <img
-        data-src="https://res.cloudinary.com/sep-2020-test/image/upload/$imgw_800,$ftile_$imgw_div_3,$tile_$ftile_to_i,$fontw_$imgw_div_4,$img1_!kiwi!,$img2_!blackberry!,$img3_!strawberry!,$img4_!pineapple!,$img5_!cherries!,$img6_!grapes!,$title_!Fruit!/t_grid-maker/c_scale,dpr_auto,w_auto/1px"
+        data-src="http://res.cloudinary.com/CLOUD_NAME/image/upload/$imgw_800,$ftile_$imgw_div_3,$tile_$ftile_to_i,$fontw_$imgw_div_4,$img1_!kiwi!,$img2_!blackberry!,$img3_!strawberry!,$img4_!pineapple!,$img5_!cherries!,$img6_!grapes!,$title_!Fruit!/t_grid-maker/c_scale,dpr_auto,f_auto,q_auto,w_auto/1px"
         alt="fruit grid"
         class="cld-responsive"
       />
@@ -21,7 +21,7 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', e => {
-        const cl = cloudinary.Cloudinary.new({ cloud_name: 'sep-2020-test' })
+        const cl = cloudinary.Cloudinary.new({ cloud_name: '<cloud_name>' })
         cl.responsive()
       })
     </script>
