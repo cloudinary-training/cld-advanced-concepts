@@ -13,11 +13,10 @@ const port = 3000
 
 /*
 want to sign this: {
-  "public_id":"tiger-lilly",
+  "public_id":"test-logo",
   "transformation":{
     "width": 400,
     "quality: "auto",
-    "fetch_format": "auto",
     "secure": "true",
     "sign_url": "true"
   }
@@ -26,12 +25,11 @@ want to sign this: {
 curl --location --request POST 'http://localhost:3000/api/signurl' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-  "public_id":"tiger-lilly",
+  "public_id":"test-logo",
   "transformation":{
   	"type": "upload",
     "width": 400,
     "quality": "auto",
-    "fetch_format": "auto",
     "secure": "true",
     "sign_url": "true"
   }
