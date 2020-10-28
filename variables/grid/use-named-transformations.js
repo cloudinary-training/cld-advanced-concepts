@@ -31,4 +31,4 @@ const url = cloudinary.url('1px', {
 console.log(url)
 open(url)
 
-// https://res.cloudinary.com/sep-2020-test/image/upload/$imgw_800,$ftile_$imgw_div_3,$tile_$ftile_to_i,$fontw_$imgw_div_4,$img1_!kiwi!,$img2_!blackberry!,$img3_!strawberry!,$img4_!pineapple!,$img5_!cherries!,$img6_!grapes!,$title_!Fruit!/t_grid-maker/c_scale,dpr_auto,w_auto/1px
+// https://res.cloudinary.com/<cloud name>/image/upload/$imgw_800,$ftile_$imgw_div_3,$tile_$ftile_to_i,$fontw_$imgw_div_4,$img1_!kiwi!,$img2_!blackberry!,$img3_!strawberry!,$img4_!pineapple!,$img5_!cherries!,$img6_!grapes!,$title_!Fruit!/t_grid-maker/c_scale,dpr_auto,w_auto/1px
