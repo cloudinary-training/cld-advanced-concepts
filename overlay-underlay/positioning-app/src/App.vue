@@ -61,8 +61,8 @@ export default {
       alert(JSON.stringify(this.form))
     },
     createUrl() {
-      const tr = cloudinary.Transformation.new()
-      tr.width(250)
+      const transformation = cloudinary.Transformation.new()
+      transformation.width(250)
         .crop('scale')
         .effect('replace_color:red')
         .border('5px_solid_red')
@@ -73,8 +73,8 @@ export default {
         .gravity(this.gravity)
         .x(this.xpos)
         .y(this.ypos)
-      console.log(this.cld.url(this.publicId, tr))
-      return this.cld.url(this.publicId, tr)
+      console.log(this.cld.url(this.publicId, transformation))
+      return this.cld.url(this.publicId, transformation)
     },
     updateImage(evt) {
       console.log('hi')
