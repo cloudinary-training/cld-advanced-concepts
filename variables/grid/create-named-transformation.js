@@ -102,7 +102,8 @@ cloudinary.api
         background: 'indigo',
         'font-weight': 'bold',
         gravity: 'center',
-        width: '$fontw'
+        width: '$fontw',
+        dpr: 2.0
       },
       { border: '5px_solid_rgb:bada55' }
     ]

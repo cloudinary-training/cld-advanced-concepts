@@ -1,11 +1,11 @@
 # Custom Fn
 
-## Deply to heroku
+## Deploy to heroku
 
-https://devcenter.heroku.com/articles/git
-heroku git:remote -a  secure-caverns-90265
-Procfile
-git push heroku master
+* https://devcenter.heroku.com/articles/git
+* heroku git:remote -a  secure-caverns-90265
+* Procfile
+* git push heroku master
 
 
 ## Custom function to transform an image

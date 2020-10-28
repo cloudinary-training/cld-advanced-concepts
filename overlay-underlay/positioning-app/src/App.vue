@@ -51,7 +51,7 @@ import cloudinary from 'cloudinary-core'
 export default {
   name: 'App',
   created: function() {
-    this.cld = cloudinary.Cloudinary.new({ cloud_name: 'sep-2020-test' })
+    this.cld = cloudinary.Cloudinary.new({ cloud_name: 'cloudinary-training' })
     this.url = this.createUrl()
   },
 
@@ -67,7 +67,7 @@ export default {
         .effect('replace_color:red')
         .border('5px_solid_red')
         .chain()
-        .overlay('logo')
+        .overlay('logo-big')
         .width('50')
         .crop('fit')
         .gravity(this.gravity)
