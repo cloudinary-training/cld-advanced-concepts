@@ -10,7 +10,7 @@ cloudinary.uploader
     access_control: [{ access_type: 'token' }],
     moderation: 'google_video_moderation:possible',
     notification_url:
-      'https://webhook.site/17a3d46c-5d18-46b0-ab6c-94b12d7f645c'
+      'https://webhook.site/0b500683-d59a-499e-a275-234b14ac7f52'
   })
   .then(result => {
     console.log(result)
