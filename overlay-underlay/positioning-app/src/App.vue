@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Positioning with Gravity</h1>
+    <h2>Positioning with Gravity</h2>
     <div v-show="url" id="transform">
       <img :src="url" alt="positioning example" />
     </div>
@@ -62,13 +62,13 @@ export default {
     },
     createUrl() {
       const transformation = cloudinary.Transformation.new()
-      transformation.width(250)
+      transformation.width(400)
         .crop('scale')
-        .effect('replace_color:red')
-        .border('5px_solid_red')
+        .effect('replace_color:lightblue')
+        .border('5px_solid_blue')
         .chain()
-        .overlay('logo-big')
-        .width('50')
+        .overlay('branding:cloudinary_cloud_glyph_512x512')
+        .width('150')
         .crop('fit')
         .gravity(this.gravity)
         .x(this.xpos)
@@ -118,7 +118,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 4rem;
+  margin-top: .5rem;
 }
 
 #tranform {
@@ -134,7 +134,7 @@ export default {
 .url-display {
   padding: 1rem;
 
-  width: 300px;
+  width: 600px;
   overflow-wrap: break-word;
   background: #f0f0f0;
   border: 1px solid transparent;
