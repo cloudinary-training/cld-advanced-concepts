@@ -34,6 +34,7 @@ export default {
           overlay: 'video-logo',
           format: 'png',
           width: 100,
+          effect: "replace_color:white",
           gravity: 'north_east',
           x: 5,
           y: 5
