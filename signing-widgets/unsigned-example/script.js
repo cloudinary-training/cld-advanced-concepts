@@ -1,9 +1,9 @@
-const cloudName = '<cloud name>'
+const cloudName = 'training-peltz'
 // upload widget needs unsigned preset
 const uploadPreset = 'widget-preset'
 // media library widget needs apiKey and user email
-const apiKey = '<api_key>'
-const userEmail = '<cloudinary account email>'
+const apiKey = '153286428723777'
+const userEmail = 'rebecca.peltz@cloudinary.com'
 
 document.addEventListener('DOMContentLoaded', async () => {
   // upload widget unsigned

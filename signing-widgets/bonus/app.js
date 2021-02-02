@@ -25,9 +25,9 @@ want to sign this: {
 curl --location --request POST 'http://localhost:3000/api/signurl' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-  "public_id":"test-logo",
+  "public_id":"tiger-lilly",
   "transformation":{
-  	"type": "upload",
+  	"type": "authenticated",
     "width": 400,
     "quality": "auto",
     "secure": "true",
