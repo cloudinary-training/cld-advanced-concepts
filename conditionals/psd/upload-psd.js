@@ -4,7 +4,7 @@ const cloudinary = require('cloudinary').v2
 // upload psd files with layers
 cloudinary.uploader
   .upload(
-    './assets/raw/PSDtemplate.psd',
+    './assets/images/PSDtemplate.psd',
     {
       use_filename: true,
       unique_filename: false,
