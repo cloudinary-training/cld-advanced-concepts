@@ -15,7 +15,7 @@ const url = cloudinary.url('shell', {
           overlay: {
             font_family: 'Arial',
             font_size: 100,
-            text: '< $(w)'
+            text: 'width < $(w)'
           },
           width: 400,
           gravity: 'north_east',
@@ -27,7 +27,7 @@ const url = cloudinary.url('shell', {
           overlay: {
             font_family: 'Arial',
             font_size: 100,
-            text: '> $(w)'
+            text: 'width >= $(w)'
           },
           background: 'yellow',
           color: 'black',
