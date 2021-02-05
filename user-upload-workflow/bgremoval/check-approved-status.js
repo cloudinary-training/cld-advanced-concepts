@@ -13,7 +13,8 @@ cloudinary.api
           .resource(img.public_id)
           .then(result => {
             // console.log(result)
-            console.log(cloudinary.image(result.public_id, { alt: result.context.custom.alt }))
+            console.log(cloudinary.image(result.public_id, 
+              { alt: result.context && result.context.custom ? result.context.custom.alt : '' }))
           })
           .catch(error => {
             console.log(error)
