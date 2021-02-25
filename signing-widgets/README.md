@@ -220,7 +220,7 @@ Finally, we'll create the media library using the options and insert handler cre
 const renderMediaLibrary = () => {
   window.cloudinary.createMediaLibrary(
     mlOptions,
-    insertHandler,
+    {insertHandler: insertHandler},
     document.querySelector('#ml-button')
   )
 }
@@ -551,7 +551,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
   window.cloudinary.createMediaLibrary(
     options,
-    insertHandler,
+    {insertHandler: insertHandler},
     '#ml-button'
   )
 })

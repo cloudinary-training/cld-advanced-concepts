@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
   window.cloudinary.createMediaLibrary(
     options,
-    insertHandler,
+    {insertHandler: insertHandler},
     '#ml-button'
   )
 })

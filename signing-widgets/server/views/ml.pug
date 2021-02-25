@@ -28,7 +28,7 @@ block content
       }
       window.cloudinary.createMediaLibrary(
         options,
-        insertHandler,
+        {insertHandler: insertHandler},
         '#ml-button'
       )
     })

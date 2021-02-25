@@ -1,8 +1,8 @@
-const cloudName = 'training-peltz'
+const cloudName = '<CLOUD NAME>'
 // upload widget needs unsigned preset
 const uploadPreset = 'widget-preset'
 // media library widget needs apiKey and user email
-const apiKey = '153286428723777'
+const apiKey = '<API KEY>'
 const userEmail = 'rebecca.peltz@cloudinary.com'
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -57,7 +57,7 @@ const insertHandler = data => {
 const renderMediaLibrary = () => {
   window.cloudinary.createMediaLibrary(
     mlOptions,
-    insertHandler,
+    {insertHandler: insertHandler},
     document.querySelector('#ml-button')
   )
 }
