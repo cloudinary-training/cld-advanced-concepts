@@ -84,29 +84,6 @@ const upload = multer({ storage: storage })
 app.post('/api/file', upload.fields([{ name: 'file' }]), function (req, res) {
   return transform(req.files.file[0])
     .then(result => {
-      // return the image and new metadata.
-      if (req.queryStringParameters && req.queryStringParameters.cldb) {
-        const bodyLengthBuf = Buffer.alloc(4)
-        const bodyLength = result.length
-        bodyLengthBuf.writeUInt32BE(bodyLength)
-        const metadata = Buffer.from(
-          JSON.stringify({ coordinates: { custom: [[45, 57, 100, 120]] } })
-        )
-        const metadataLengthBuf = Buffer.alloc(4)
-        const metadataLength = metadata.length
-        metadataLengthBuf.writeUInt32BE(metadataLength)
-        result = Buffer.concat(
-          [
-            Buffer.from('CLDB'),
-            bodyLengthBuf,
-            result,
-            metadataLengthBuf,
-            metadata
-          ],
-          3 * 4 + metadataLength + bodyLength
-        )
-      }
-
       res.statusCode = 200
       res.headers = {
         'Content-Type': 'image/jpeg',
