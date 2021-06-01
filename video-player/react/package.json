@@ -8,7 +8,7 @@
     "cloudinary-video-player": "^1.5.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -22,6 +22,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://cloudinary-training.github.io/cld-advanced-concepts/video-player/react/build",
   "browserslist": {
     "production": [
       ">0.2%",
