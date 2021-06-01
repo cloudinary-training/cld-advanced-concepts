@@ -35,9 +35,7 @@ function VideoPlayer(props) {
     return (videoPlayerInit(),[]);
   });
   return (
-   
       <video className="fn-video" />
-    
   );
 }
 
