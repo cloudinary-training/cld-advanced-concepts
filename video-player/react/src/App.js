@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import VideoTag from "./VideoTag";
+import VideoEmbed from "./VideoEmbed";
 import VideoPlayer from "./VideoPlayer";
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <div className="container">
           <div>
             <h3>Cloudinary React Video</h3>
-            <VideoTag cloudName="cloudinary-training" />
+            <VideoEmbed cloudName="cloudinary-training" />
           </div>
           <div>
           <h3>Cloudinary Video Player</h3>
