@@ -7,8 +7,7 @@ cloudinary.uploader
     type: 'upload',
     overwrite: true,
     invalidate: true,
-    resource_type: 'video',
-    async: false,
+    resource_type: 'video', 
     eager: {
       fetch_format: 'auto',
       quality: 'auto'

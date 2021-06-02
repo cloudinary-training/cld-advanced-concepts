@@ -11,7 +11,6 @@ async function uploadVideoFile (filename) {
       overwrite: true,
       invalidate: true,
       resource_type: 'video',
-      async: false,
       eager: {
         crop: 'fill',
         width: 300,
