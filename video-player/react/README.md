@@ -8,6 +8,15 @@ You can find a runnable sandbox [here](https://codesandbox.io/s/cld-advanced-con
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Install libraries
+
+```bash
+npm i --no-audit
+```
+Recommended by Facebook to run with `no-audit`
+https://github.com/facebook/create-react-app/issues/11174
+
+
 ## Available Scripts
 
 In the project directory, you can run:
