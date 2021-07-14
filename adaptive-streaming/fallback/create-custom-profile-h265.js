@@ -7,7 +7,7 @@ cloudinary.api
     representations: [
       {
         transformation: [
-          {
+        {
             width: 320,
             height: 240,
             video_codec: 'h265',
