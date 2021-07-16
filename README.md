@@ -35,6 +35,7 @@ You can update node/npm with this command: `npm i npm@latest -g`
 Your result should look something like this:
 <div><img src="./assets/images/sample-node-version.jpg" width="300px" height="auto" alt="node and npm version"></div>
 
+
 ## The Vue.js CLI
 
 We use a positioning app to experiment with transformation positioning. The app
