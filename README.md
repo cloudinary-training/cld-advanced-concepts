@@ -2,6 +2,8 @@
 
 This repository supports the Cloudinary Advanced Concepts course.  The course is designed to be run in workshop mode.  You can run all of the code locally using this repository.
 
+Download, clone or fork this repository so that you can work along with the code.
+
 ## Create a free Cloudinary training account
 
 You can create a new, free account on Cloudinary by adding +training to your
@@ -122,7 +124,7 @@ USER_NAME=<cloudinary account email>
 You may want to run `npm install` in all the subdirectories prior to starting the
 course. This can guarantee you are ready if you are accessing the course in a
 network where `npm install` may be blocked.
-These are the directories that contain a package.json and need the `npm install`:
+These are the directories that contain a package.json and need their own `npm install`:
 
 1. signing-widgets/bonus  
 2. signing-widgets/server  
