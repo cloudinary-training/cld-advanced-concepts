@@ -11,16 +11,22 @@ Sign up [here](https://cloudinary.com/users/register/free)
 
 For example, I can create an account with this email:
 `My-GMail-account+training@cloudinary.com`  
+Be sure to check your email to confirm your new account.
 
 This is important, as we’ll be configuring settings and using Cloudinary add-ons.
 
+## Code
+
+The notes below will help you get setup to write and execute code.  We'll be using 
+
+* node.js/npm
+* html/css/javascript
+* React
+* Vue.js
 
 ## Node/NPM
 
-We’ll be coding in Node.js (v > 10.x), as well as creating some
-HTML/JavaScript/CSS files.
-
-Install the latest version of node/npm to follow along with node exercises.
+Install the latest version of node.js/npm to follow along with node exercises.
 [Download node.js and npm](https://nodejs.org/en/download/)  
  
 
@@ -47,34 +53,47 @@ npm run serve
 ```
 You can all run this on the training server: [positioning app](https://cloudinary-training.github.io/cld-advanced-concepts/overlay-underlay/positioning-app/docs/index.html)
 
-## IDE Visual Studio Code  
+## IDE
+
+We'll be using [Visual Studio Code](https://code.visualstudio.com/) to manage code in demos.
+
+A text editor will work, but we recommend these IDE's for working with JavaScript as well:
+
+* [Atom](https://atom.io/)
+* [AWS Cloud 9](https://aws.amazon.com/cloud9/)
+* [Brackets](http://brackets.io/)
+* [WebStorm](https://www.jetbrains.com/webstorm/)
+* [Sublime](https://www.sublimetext.com/)
+
+## Setting up an HTTP Server
 
 I’ll be using [Visual Studio Code](https://code.visualstudio.com/) with the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to serve HTML files on localhost.  
 
-Another alternative to using the VS Code live server extension is to `npm i -g http-server` and open the server from the terminal with `npx http-server`.
+Another alternative to using the VS Code live server extension is to install the npm http-server
+```bash
+npm i -g http-server
+``` 
+and open the server from the terminal with 
+```
+npx http-server
+```
 
 If you're using a Mac, you can use the built in python server
-```bash
+```bash 
 python -m SimpleHTTPServer 8000
 ```
 
 
-## Course Code Repository
-
-The code repo is [here](https://github.com/cloudinary-training/cld-advanced-concepts) 
-
-The easiest way to work with this repo is to download it. Most of the work will involve running local Node.js scripts or serving from localhost.
-
 ## Assets
 
-This repo contains code and assets used for the exercises.  You'll find assets under the `assets` and `secure-assets` directories.  The files can be served from `github.io`. This is useful when we’re working on modules like auto-upload/fetch. For example: 
-https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/cc0.png 
+This repo contains code and assets used for the course exercises.   The files can be served from `github.io`. This is useful when we’re working on modules like auto-upload/fetch where we need to fetch remote assets. For example: 
+https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/cc0.png.
 
-You'll find media for images, video and raw (anything besides images and video) in the assets directory. There is no specific security attached to the `secure-assets` directory. This is just a name to help with an exercise.
+You'll find media for images, video and raw (any file format besides images and video) in the assets directory. There is no specific security attached to the `secure-assets` directory. This is just a name to help with an exercise.
 
 **(Optional)** If you want to serve your account repo on github.io, I recommend forking or
 duplicating this repository into your own GitHub account. Forking allows you to pull from
-upstream later if you want. Go to Settings and [set up gh pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to serve the static HTML files and assets.  
+upstream later if you want. Go to GitHub Settings and [set up gh pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to serve the static HTML files and assets.  
 
 
 ## .env
