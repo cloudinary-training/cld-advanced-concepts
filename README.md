@@ -1,5 +1,6 @@
 # Cloudinary Advanced Concepts 
 
+This repository supports the Cloudinary Advanced Concepts course.  The course is designed to be run in workshop mode.  You can run all of the code locally using this repository.
 
 ## Create a free Cloudinary training account
 
@@ -9,7 +10,7 @@ email when registering.
 Sign up [here](https://cloudinary.com/users/register/free)
 
 For example, I can create an account with this email:
-`GMail-account+training@cloudinary.com`  
+`My-GMail-account+training@cloudinary.com`  
 
 This is important, as we’ll be configuring settings and using Cloudinary add-ons.
 
@@ -25,39 +26,59 @@ Install the latest version of node/npm to follow along with node exercises.
 
 You can update node/npm with this command: `npm i npm@latest -g` 
 
+Your result should look something like this:
+<div><img src="./assets/images/sample-node-version.jpg" width="300px" height="auto" alt="node and npm version"></div>
 
-![node version](https://res.cloudinary.com/cloudinary-training/image/upload/w_350/book/setup-node-version.png)
+## The Vue.js CLI
 
+We use a positioning app to experiment with transformation positioning. The app
+is written in Vue.js.  If you want to run this app locally, you can install the Vue.js CLI.
+  
+Vue.js CLI Installation Instructions [here](https://cli.vuejs.org/)  
 
+You will run install globally with this command: `npm install -g @vue/cli`.
 
+**Note:** You’re not installing Vue.js globally, just a package with the CLI.
 
-# IDE Visual Studio Code  
+The will allow you to start a local server in the overlay-underlay/positioning-app directory:
+
+```bash
+npm run serve
+```
+You can all run this on the training server: [positioning app](https://cloudinary-training.github.io/cld-advanced-concepts/overlay-underlay/positioning-app/docs/index.html)
+
+## IDE Visual Studio Code  
 
 I’ll be using [Visual Studio Code](https://code.visualstudio.com/) with the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to serve HTML files on localhost.  
 
 Another alternative to using the VS Code live server extension is to `npm i -g http-server` and open the server from the terminal with `npx http-server`.
 
+If you're using a Mac, you can use the built in python server
+```bash
+python -m SimpleHTTPServer 8000
+```
 
 
-
-# Course Code Repository
+## Course Code Repository
 
 The code repo is [here](https://github.com/cloudinary-training/cld-advanced-concepts) 
 
-The easiest way to work with this repo is to download it. Most of the work will involve running local node.js scripts or serving from localhost.
+The easiest way to work with this repo is to download it. Most of the work will involve running local Node.js scripts or serving from localhost.
 
-This repo contains code and assets used during the exercises.  You'll find assets under the `assets` and `secure-assets` directories.  *The files can be served from `github.io`. This is useful when we’re working on modules like auto-upload/fetch. For example: 
+## Assets
+
+This repo contains code and assets used for the exercises.  You'll find assets under the `assets` and `secure-assets` directories.  The files can be served from `github.io`. This is useful when we’re working on modules like auto-upload/fetch. For example: 
 https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/cc0.png 
+
+You'll find media for images, video and raw (anything besides images and video) in the assets directory. There is no specific security attached to the `secure-assets` directory. This is just a name to help with an exercise.
 
 **(Optional)** If you want to serve your account repo on github.io, I recommend forking or
 duplicating this repository into your own GitHub account. Forking allows you to pull from
-upstream later if you want. Go to Settings and set up [gh pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to serve the HTML files.  
-
-
+upstream later if you want. Go to Settings and [set up gh pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to serve the static HTML files and assets.  
 
 
 ## .env
-Your `.env` file is `.gitignored `and can’t be accidentally checked into a repository
+Your `.env` file is `.gitignored ` and can’t be accidentally checked into a repository
 because it will contain your `API_SECRET`.   
 
 In the root of the project, you’ll find a `.env.template` file.
@@ -76,22 +97,23 @@ USER_NAME=<cloudinary account email>
 ```
 
 ## How to Run the node.js scripts 
-See the .env.template for example of what is needed as described above.  Before running any scripts you need to run `npm install` in the terminal in the directory containing the package.json.  
+ Before running any scripts you need to run `npm install` in the terminal in the directory containing the package.json.  
 
-You may want to run npm install in all the subdirectories prior to starting the
+You may want to run `npm install` in all the subdirectories prior to starting the
 course. This can guarantee you are ready if you are accessing the course in a
-network where npm install may be blocked.
-These are the directories that contain a package.json and need the npm install:
+network where `npm install` may be blocked.
+These are the directories that contain a package.json and need the `npm install`:
 
 1. signing-widgets/bonus  
 2. signing-widgets/server  
 3. user-upload-workflow/remote-functions  
-4. video-player/vuejs  
+4. video-player/react
+5. overlay-underlay/positioning-app 
 
 All scripts (unless otherwise noted in a module) can be run from the root of the
 project in the terminal.  
 
-If I want to run a script in the /access-control directory to upload a private asset, I
+If I want to run a script in the `/access-control` directory to upload a private asset, I
 can run it from the terminal like this from the root directory:
 ```bash
 node access-control/private/upload-private.js
@@ -110,70 +132,35 @@ Test that you can upload assets:
 ```bash
 node test-upload.js
 ``` 
----
-title: "Vuejs setup"
-metaTitle: "Vuejs setup"
-metaDescription: "Vuejs setup"
----
 
-We use the JavaScript vue.js framework in the module on Video Player, as
+
+
+We use the JavaScript React framework in the module on Video Player, as
 questions come up about how to include widgets and player in frameworks. 
-The code in the vue.js example is very similar to what you would use in a static
-HTML page. The code for React and Angular is similar, but those frameworks
-often require typescript, which can make the code more complex.  
+The code in the React example is very similar to what you would use in a static
+HTML page. The code for Vue.js and Angular would be similar.  
 
-To get the vue.js code running, you’ll need to install the Vue CLI, which will allow
-you to start a local server to run the code.
-Vue CLI Installation Instructions [here](https://cli.vuejs.org/)  
-
-You will run `npm install -g @vue/cli`.
-
-**Note:** You’re not installing Vue.js globally, just a package with the CLI
-
-
----
-title: "Caching"
-metaTitle: "Caching"
-metaDescription: "Caching"
----
 
 ## CDN and Browser Caching 
 
 In this course, we’ll be concerned about browser caching and CDN caching.
 Understanding the flow of requests through the CDN and into Cloudinary’s system storage will help. It’s also helpful to be able to identify if you are caching in the CDN and to eliminate browser caching. 
 
-You can use the [Cloudinary Debugger Chrome Extension](https://chrome.google.com/webstore/detail/cloudinary-debugger/ehnkhkglbafecknplfmjklnnjimokpkg?hl=en) to detect browser caching. 
+You can use the [Cloudinary Media Inspector](https://chrome.google.com/webstore/detail/cloudinary-media-inspecto/ehnkhkglbafecknplfmjklnnjimokpkg) to detect browser caching. 
 
-![Cloudinary debugger](https://res.cloudinary.com/cloudinary-training/image/upload/book/setup-browser-caching.png)
+![https://chrome.google.com/webstore/detail/cloudinary-media-inspecto/ehnkhkglbafecknplfmjklnnjimokpkg](https://res.cloudinary.com/cloudinary-training/image/upload/book/setup-browser-caching.png)
 
 To avoid browser caching, you can 
-- check the disable cache and keeping the chrome inspector open,
+- check the disable cache and keep the chrome inspector open
 - find an extension that prevents browser caching
 - open your image requests incognito (Chrome) or private (Firefox)  
 
-## Detect caching on Fastly
-
-
-![Caching on Fastly](https://res.cloudinary.com/cloudinary-training/image/upload/v1588286105/book/setup-caching-fastly.png)
-
-You can purge a fastly cache with this command:
-
-```bash
-curl -X PURGE https://www.example.com/image.jpg
-```
-
----
-title: "Optional"
-metaTitle: "Optional"
-metaDescription: "Optional"
----
-
-
 ## gh pages settings
+
 In github.com settings:
 -- Choose master branch for the source.
 -- Click Enforce HTTPS if you have the option available.
-You can also serve assets from the training github account: https://cloudinary-training.github.io/cld-advanced-concepts. 
+You can also serve assets from the training GitHub account: https://cloudinary-training.github.io/cld-advanced-concepts, for example https://cloudinary-training.github.io/cld-advanced-concepts/assets/images/dolphin.jpg. 
 
 ![gh-pages](https://res.cloudinary.com/cloudinary-training/image/upload/book/setup-gh-pages.png)
 
@@ -184,7 +171,7 @@ VS Code Node Debug: optional
 Simple breakpoint debugging
 -- Enable Debug > Node: Auto Attach
 -- Set breakpoints
--- In terminal node --inspect `<filename>`
+-- In terminal `node --inspect <filename>`
 
 ![node debug](https://res.cloudinary.com/cloudinary-training/image/upload/v1588285899/book/setup-node-debug.png)
 
@@ -193,17 +180,6 @@ Simple breakpoint debugging
 If you want to remove all assets from your cloud that were uploaded in this course,
 you can find cleanup scripts in the `/utils` directory
 
-## Chrome XHR Localhost bug (Adaptive Streaming)
-There are some instances where serving from localhost will not work correctly
-because XHR is used and there can be bugs around this, such as this one in
-chrome:
-https://bugs.chromium.org/p/chromium/issues/detail?id=67743
-Links are provided to serve from the Advanced Concepts Server
-https://cloudinary-training.github.io/cld-advanced-concepts---
-title: "Code Formatting"
-metaTitle: "Code Formatting"
-metaDescription: "Code Formatting"
----
 
 ## Using prettier in VS Code
 
