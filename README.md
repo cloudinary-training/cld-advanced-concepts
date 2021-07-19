@@ -11,8 +11,8 @@ email when registering.
 
 Sign up [here](https://cloudinary.com/users/register/free)
 
-For example, I can create an account with this email:
-`My-GMail-account+training@cloudinary.com`  
+For example, I can create a training account with this email:
+`me+training@gmail.com`  
 Be sure to check your email to confirm your new account.
 
 This is important, as we’ll be configuring settings and using Cloudinary add-ons.
@@ -29,7 +29,7 @@ The notes below will help you get setup to write and execute code.  We'll be usi
 ## Node/NPM
 
 Install the latest version of node.js/npm to follow along with node exercises.
-[Download node.js and npm](https://nodejs.org/en/download/)  
+[Download node.js and npm](https://nodejs.org/en/download/). You must be at Node.js Version 10 or greater. 
  
 
 You can update node/npm with this command: `npm i npm@latest -g` 
