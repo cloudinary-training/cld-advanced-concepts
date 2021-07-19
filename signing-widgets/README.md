@@ -6,7 +6,12 @@ There's a bonus server app that shows you how you can get a server to create sig
 
 ## Running the Code
 
-You will need to `cd` into the `bonu` and `server` directories to `npm install` the libraries needed and start the servers.
+You will need to `cd` into the `bonus` and `server` directories to `npm install` the libraries needed and start the servers.
+
+Copy the `.env` file from root into the `bonus` or `server` directory.
+```bash
+cp ../../.env .
+```
 
 You start the servers by executing
 
