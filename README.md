@@ -37,6 +37,7 @@ You can update node/npm with this command: `npm i npm@latest -g`
 Your result should look something like this:
 <div><img src="./assets/images/sample-node-version.jpg" width="300px" height="auto" alt="node and npm version"></div>
 
+**NOTE**: You can use [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) to install npmjs.org packages as well as npm.
 
 ## The Vue.js CLI
 
