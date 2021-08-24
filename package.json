@@ -22,7 +22,12 @@
     "cloudinary": "^1.21.0",
     "dotenv": "^8.2.0",
     "moment": "^2.26.0",
+    "lodash": "^4.17.19",
+    "path-parse": ">=1.0.7",
     "open": "^7.0.4",
-    "urlsafe-base64": "^1.0.0"
+    "tar": ">=6.1.2",
+    "url-parse": ">=1.5.2",
+    "urlsafe-base64": "^1.0.0",
+    "video.js": ">=7.14.3"
   }
 }
