@@ -32,7 +32,7 @@ function VideoPlayer(props) {
   
   };
   useEffect(() => {
-    return (videoPlayerInit(),[]);
+    return (videoPlayerInit());
   });
   return (
       <video className="fn-video" />
