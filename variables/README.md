@@ -22,5 +22,5 @@ accepts variables.
 ### Serving the image responsively for Grid image
 
 When you are able to successfully create a named transformation, you can experiment with
-serving the image responsively using the index.html in your browser.
+serving the image responsively using the index.html in your browser.  You'll need to replace CLOUD_NAME on line 16 with the cloud name you used to create the grid image.
 
