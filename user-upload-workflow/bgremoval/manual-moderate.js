@@ -11,7 +11,7 @@ function setUpModeration(publicId, description) {
       moderation: 'manual'
     })
     .then(result => {
-      console.log(JSON.stringify(result, null, 1))
+      console.log(JSON.stringify(result, null, 2))
     })
     .catch(error => {
       console.log(error)
