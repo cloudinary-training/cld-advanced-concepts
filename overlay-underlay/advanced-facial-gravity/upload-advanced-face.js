@@ -5,6 +5,7 @@ const cloudinary = require('cloudinary').v2
 
 cloudinary.uploader
   .upload('./assets/images/woman-standing.jpg', {
+    public_id: 'woman-standing',
     detection: 'adv_face'
   })
   .then(result => {
