@@ -21,9 +21,16 @@
   "dependencies": {
     "cloudinary": "^1.21.0",
     "dotenv": "^8.2.0",
-    "moment": "^2.26.0",
     "lodash": "^4.17.19",
+    "moment": "^2.26.0",
     "open": "^7.0.4",
     "urlsafe-base64": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-standard": "^5.0.0"
   }
 }

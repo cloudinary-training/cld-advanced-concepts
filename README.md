@@ -2,7 +2,7 @@
 
 This repository supports the Cloudinary Advanced Concepts course.  The course is designed to be run in workshop mode.  You can run all of the code locally using this repository.
 
-Download, clone or fork this repository so that you can work along with the code.
+Download or fork this repository so that you can work along with the code.
 
 ## Create a free Cloudinary training account
 
@@ -23,8 +23,7 @@ The notes below will help you get setup to write and execute code.  We'll be usi
 
 * node.js/npm
 * html/css/javascript
-* React
-* Vue.js
+
 
 ## Node/NPM
 
@@ -219,3 +218,6 @@ Contents of `.prettier` below
   "space-before-function-paren": true
 }
 ```
+
+#### eslint fix
+https://debugah.com/eslint-failed-to-load-config-standard-to-extend-from-21531/
