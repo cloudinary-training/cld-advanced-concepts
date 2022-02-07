@@ -1,7 +1,7 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
-// use upload API to upload a private asset
+// use upload API to upload a authenticated asset
 
 cloudinary.uploader.upload('./assets/images/dolphin.jpg', {
   public_id: 'dolphin',

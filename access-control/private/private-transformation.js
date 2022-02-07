@@ -2,7 +2,8 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 const open = require('open')
 
-// use upload API to upload a private asset
+// use cld url helper to create a transformation
+// do not need to sign to create transformation with private
 
 const url = cloudinary.url('goldfish', {
   type: 'private',

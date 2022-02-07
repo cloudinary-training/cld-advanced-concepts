@@ -3,7 +3,7 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
-// extract signing information fron env
+// extract signing information from env
 const cloudname = cloudinary.config().cloud_name
 const secret = cloudinary.config().api_secret
 
