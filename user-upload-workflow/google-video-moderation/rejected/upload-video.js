@@ -14,6 +14,6 @@ cloudinary.uploader
   })
   .then(result => {
     console.log(result)
-    console.log(result.moderation.repsonse)
+    console.log(result.moderation.response)
   })
   .catch(error => console.log(error))
