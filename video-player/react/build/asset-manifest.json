@@ -1,26 +1,17 @@
 {
   "files": {
-    "main.css": "/cld-advanced-concepts/video-player/react/build/static/css/main.c7d516ed.chunk.css",
-    "main.js": "/cld-advanced-concepts/video-player/react/build/static/js/main.527b7487.chunk.js",
-    "main.js.map": "/cld-advanced-concepts/video-player/react/build/static/js/main.527b7487.chunk.js.map",
-    "runtime-main.js": "/cld-advanced-concepts/video-player/react/build/static/js/runtime-main.aced50c7.js",
-    "runtime-main.js.map": "/cld-advanced-concepts/video-player/react/build/static/js/runtime-main.aced50c7.js.map",
-    "static/css/2.1faabb43.chunk.css": "/cld-advanced-concepts/video-player/react/build/static/css/2.1faabb43.chunk.css",
-    "static/js/2.b0140f8b.chunk.js": "/cld-advanced-concepts/video-player/react/build/static/js/2.b0140f8b.chunk.js",
-    "static/js/2.b0140f8b.chunk.js.map": "/cld-advanced-concepts/video-player/react/build/static/js/2.b0140f8b.chunk.js.map",
-    "static/js/3.4490da06.chunk.js": "/cld-advanced-concepts/video-player/react/build/static/js/3.4490da06.chunk.js",
-    "static/js/3.4490da06.chunk.js.map": "/cld-advanced-concepts/video-player/react/build/static/js/3.4490da06.chunk.js.map",
-    "index.html": "/cld-advanced-concepts/video-player/react/build/index.html",
-    "static/css/2.1faabb43.chunk.css.map": "/cld-advanced-concepts/video-player/react/build/static/css/2.1faabb43.chunk.css.map",
-    "static/css/main.c7d516ed.chunk.css.map": "/cld-advanced-concepts/video-player/react/build/static/css/main.c7d516ed.chunk.css.map",
-    "static/js/2.b0140f8b.chunk.js.LICENSE.txt": "/cld-advanced-concepts/video-player/react/build/static/js/2.b0140f8b.chunk.js.LICENSE.txt",
-    "static/media/cld-video-player.light.min.css": "/cld-advanced-concepts/video-player/react/build/static/media/cloudinary_icon_for_white_bg.cdc80e08.svg"
+    "main.css": "./static/css/main.64490652.css",
+    "main.js": "./static/js/main.674c82fb.js",
+    "static/js/787.38048df4.chunk.js": "./static/js/787.38048df4.chunk.js",
+    "static/media/cloudinary_icon_for_black_bg.svg": "./static/media/cloudinary_icon_for_black_bg.0649bdb9295d8e7ad807.svg",
+    "static/media/cloudinary_icon_for_white_bg.svg": "./static/media/cloudinary_icon_for_white_bg.cdc80e08707cc921db60.svg",
+    "index.html": "./index.html",
+    "main.64490652.css.map": "./static/css/main.64490652.css.map",
+    "main.674c82fb.js.map": "./static/js/main.674c82fb.js.map",
+    "787.38048df4.chunk.js.map": "./static/js/787.38048df4.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.aced50c7.js",
-    "static/css/2.1faabb43.chunk.css",
-    "static/js/2.b0140f8b.chunk.js",
-    "static/css/main.c7d516ed.chunk.css",
-    "static/js/main.527b7487.chunk.js"
+    "static/css/main.64490652.css",
+    "static/js/main.674c82fb.js"
   ]
 }
