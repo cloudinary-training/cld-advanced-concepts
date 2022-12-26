@@ -89,3 +89,6 @@ video element must download the entire video file, but the video player can down
 
 All node.js scripts should be run out the root directory.  Use an HTTP server to open the HTML files.
 
+## NPM Audit
+Read more from Dan Abramov [here](https://github.com/facebook/create-react-app/issues/11174).  
+Remove product warnings by running `npm audit --production`
