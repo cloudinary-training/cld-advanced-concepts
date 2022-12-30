@@ -1,6 +1,18 @@
 # Custom Fn
 For this example, we are writing a custom function using the imagemagick library. See [Cloudinary documentation](https://cloudinary.com/documentation/custom_functions#remote_functions) for more information.
 
+<div style="height:100px;color:red;font-size:3rem;">2023 Attention</div>  
+
+## New Code and Location for Remote Function Example
+
+In the example demonstrated in the Advanced Concepts course, we used the imagemangick package in a Node.js Express server to implement the remote function.  The function get the local date and time of the caller and writes it as a text overlay on the image sent to it.  The remote function was deloyed to Heroku.  The Heroku account has been shut down.  
+
+The remote function has been reimplemented as a serverless function using the Sharp package.  You'll find the code and instructions for how to call the remote function API and how to create a URL that uses the remote function in a Cloudinary transformation.
+
+Look here to see the new implementation: [https://github.com/cloudinary-training/cld-serverless-remote-function](https://github.com/cloudinary-training/cld-serverless-remote-function)
+
+
+
 ## Run this app locally
 ```
 cd user-upload-workflow/remote-function
