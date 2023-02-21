@@ -1,4 +1,4 @@
-import 'cloudinary-video-player/dist/cld-video-player.min.css';
+import '../node_modules/cloudinary-video-player/dist/cld-video-player.min.css';
 import React, { useRef, useEffect, useState } from 'react'
 
 const VideoPlayer = ( props) => {
@@ -11,7 +11,7 @@ const VideoPlayer = ( props) => {
 
   useEffect(() => {
     const scriptTag = document.createElement('script');
-    scriptTag.src = 'https://cdn.jsdelivr.net/npm/cloudinary-video-player@1.9.1/dist/cld-video-player.min.js';
+    scriptTag.src = 'https://unpkg.com/cloudinary-video-player@1.9.5/dist/cld-video-player.min.js';
     scriptTag.addEventListener('load', () => setLoaded(true));
     document.body.appendChild(scriptTag);
   }, []);

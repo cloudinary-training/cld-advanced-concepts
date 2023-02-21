@@ -1,15 +1,12 @@
 <html>
   <head>
     <link
-      href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css"
+      href="https://unpkg.com/cloudinary-video-player@1.9.5/dist/cld-video-player.min.css"
       rel="stylesheet"
     />
+    <!-- video player script -->
     <script
-      src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.js"
+      src="https://unpkg.com/cloudinary-video-player@1.9.5/dist/cld-video-player.min.js"
       type="text/javascript"
     ></script>
     <title>Adpative Streaming Example</title>
@@ -19,14 +16,14 @@
     <video id="hls-player" controls class="cld-video-player"></video>
     <script>
       // HLS
-      var cld = cloudinary.Cloudinary.new({ cloud_name: 'demo', secure: true })
+      var cld = cloudinary.Cloudinary.new({ cloud_name: "demo", secure: true });
 
-      var player = cld.videoPlayer('hls-player')
+      var player = cld.videoPlayer("hls-player");
 
-      player.source('rafting', {
-        sourceTypes: ['hls'],
-        transformation: { streaming_profile: 'full_hd' }
-      })
+      player.source("rafting", {
+        sourceTypes: ["hls"],
+        transformation: { streaming_profile: "full_hd" },
+      });
     </script>
   </body>
 </html>

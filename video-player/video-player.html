@@ -4,20 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Video Player</title>
-
-    <!-- include the video player style sheet -->
     <link
-      href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css"
+      href="https://unpkg.com/cloudinary-video-player@1.9.5/dist/cld-video-player.min.css"
       rel="stylesheet"
     />
-    <link rel="icon" href="../../assets/favicon.png" type="image/png" />
 
+    <link rel="icon" href="../../assets/favicon.png" type="image/png" />
   </head>
   <body>
     <h2>Video Player</h2>
 
     <!-- add the video tag -->
-    <div style="max-width:400px">
+    <div style="max-width: 400px">
       <video
         id="doc-player"
         controls
@@ -26,29 +24,23 @@
       ></video>
     </div>
 
-    <!-- JavaScript SDK -->
+    <!-- video player script -->
     <script
-      src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.min.js"
-      type="text/javascript"
-    ></script>
-
-    <!-- Video Player library -->
-    <script
-      src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.js"
+      src="https://unpkg.com/cloudinary-video-player@1.9.5/dist/cld-video-player.min.js"
       type="text/javascript"
     ></script>
 
     <!-- custom script to wrap video player around video tag -->
     <script>
-      document.addEventListener('DOMContentLoaded', async () => {
+      document.addEventListener("DOMContentLoaded", async () => {
         // video player
         const cld = window.cloudinary.Cloudinary.new({
-          cloud_name: 'demo',
-          secure: true
-        })
-        const demoplayer = cld.videoPlayer('doc-player')
-        demoplayer.source('race_road_car')
-      })
+          cloud_name: "demo",
+          secure: true,
+        });
+        const demoplayer = cld.videoPlayer("doc-player");
+        demoplayer.source("race_road_car");
+      });
     </script>
   </body>
 </html>

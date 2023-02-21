@@ -6,20 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>DASH ONLY</title>
     <link
-      href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css"
+      href="https://unpkg.com/cloudinary-video-player@1.9.5/dist/cld-video-player.min.css"
       rel="stylesheet"
     />
     <link rel="icon" href="../../assets/favicon.png" type="image/png" />
-    
   </head>
 
   <body>
     <h1>Cloudinary Video Player</h1>
     <h2>Adaptive streaming: Dash Only</h2>
 
-    <p>
-      What happens in Safari?
-    </p>
+    <p>What happens in Safari?</p>
 
     <video
       id="example-player"
@@ -30,36 +27,37 @@
       class="cld-video-player cld-video-player-skin-dark"
     ></video>
 
-    <!-- Cloudinary Video Player Dependencies -->
-    <script src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.min.js" type="text/javascript"></script>
-    <script src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.js" type="text/javascript"></script>
-    
+    <!-- video player script -->
+    <script
+      src="https://unpkg.com/cloudinary-video-player@1.9.5/dist/cld-video-player.min.js"
+      type="text/javascript"
+    ></script>
 
     <script type="text/javascript">
       const cld = cloudinary.Cloudinary.new({
-        cloud_name: 'cloudinary-training',
-        secure: true
-      })
+        cloud_name: "cloudinary-training",
+        secure: true,
+      });
 
       // Initialize player
       const sources = {
-        publicId: 'whale',
-        sourceTypes: ['dash/vp9', 'mp4'],
+        publicId: "whale",
+        sourceTypes: ["vp9", "mp4"],
         sourceTransformation: {
-          'dash/vp9': [
+          "vp9": [
             {
-              streaming_profile: 'training_hd_vp9'
-            }
+              streaming_profile: "training_hd_vp9",
+            },
           ],
           mp4: [
             {
-              raw_transformation: 'q_auto'
-            }
-          ]
-        }
-      }
-      const player = cld.videoPlayer('example-player')
-      player.source(sources)
+              raw_transformation: "q_auto",
+            },
+          ],
+        },
+      };
+      const player = cld.videoPlayer("example-player");
+      player.source(sources);
     </script>
   </body>
 </html>
