@@ -53,7 +53,7 @@
       // we can add summary data from the playlist object in the player
       // to our webpage
       let divElem = document.querySelector("div#playlist-data");
-      let list = player.playlist().list().map(source => {
+      let list = player.cloudinary.playlist().list().map(source =>  {
         return source.publicId()
       }).join(', ');
       divElem.innerText = "Playlist: " + list
