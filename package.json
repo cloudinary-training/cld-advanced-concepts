@@ -22,7 +22,7 @@
     "cloudinary": "^1.21.0",
     "dotenv": "^8.2.0",
     "lodash": "^4.17.19",
-    "moment": "^2.26.0",
+    "moment": "^2.29.4",
     "open": "^7.0.4",
     "urlsafe-base64": "^1.0.0"
   },
